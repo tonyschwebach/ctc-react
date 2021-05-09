@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import HeaderWithRouter from "../src/components/Header/Header";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import './App.css';
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Router >
+      <HeaderWithRouter />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
