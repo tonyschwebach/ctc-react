@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar, Nav, NavDropdown, DropdownButton } from "react-bootstrap";
 import { withRouter } from "react-router";
 import "./Header.css";
+import CTClogoGreen from '../../Assets/images/logos/CTC_logo_green.png'
 
 const Header = (props) => {
   const { location } = props;
@@ -9,6 +10,7 @@ const Header = (props) => {
   return (
     <Navbar variant="dark" id="navbar" expand="lg" collapseOnSelect>
       <Navbar.Brand href="/" className="ml-3">
+        <img src={CTClogoGreen} alt="CTC logo" className="mr-3"/>
         Cold <span className="truth_green">Truth</span> Culture
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
