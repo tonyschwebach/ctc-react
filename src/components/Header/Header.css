@@ -2,7 +2,29 @@
   background-color: black !important;
 }
 
-.active {
+
+#collapsible-nav-dropdown{
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 0;
+  font-weight: bold;
+}
+.navbar-nav .nav-link {
+  color: rgba(255,255,255,1) !important;
+}
+
+
+/* hide dropdown arrow in navbar */
+.dropdown-toggle::after {
+  display:none !important;
+}
+
+/* active page navbar*/
+.active.nav-link{
   color: #66FF00 !important;
   font-weight: bold;
+}
+
+.truth_green{
+  color: #66FF00 ;
 }
