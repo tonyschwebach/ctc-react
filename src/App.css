@@ -1,3 +1,9 @@
+@font-face {
+  src: url("../src/Assets/fonts/Druk_Wide.ttf");
+  font-family: "druk-wide";
+}
+
 .App {
   text-align: center;
+  font-family: "druk-wide","Times New Roman", Times, sans-serif;;
 }

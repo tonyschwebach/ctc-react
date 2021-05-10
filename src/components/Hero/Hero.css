@@ -1,25 +1,34 @@
-#hero {
+#hero{
+  margin:0;
+  padding: 0;
+
+}
+
+#hero_body {
   background-color: #66ff00;
   padding-top: 12rem;
   padding-bottom: 12rem;
-}
-
-#featured_art_container {
-  background-color: red;
+  text-align: left;
 }
 
 #hero_cat {
   position: absolute;
   top: -100px;
-  left: 120px;
+  left: 20px;
 }
 #hero_yinyang {
   position: absolute;
   top: 0px;
-  left: 220px;
+  left: 120px;
 }
 #hero_tv {
   position: absolute;
   top: -100px;
-  left: 350px;
+  left: 250px;
+}
+
+#hero_footer{
+  height: 104px;
+  background-color: black;
+  color: #66ff00;
 }
