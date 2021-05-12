@@ -1,13 +1,13 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const About = () => {
   return (
-    <div>
-      <h1>About Us</h1>
-      <p>
-        <strong> About Cold Truth Culture</strong>
-      </p>
-      <p>
+    <Container className="mt-5">
+      <h1>
+        <strong> About Cold <span className="truth-green">Truth </span> Culture</strong>
+      </h1>
+      <p className="content-text">
         Since the beginning of time, every culture from all around of the world
         has appreciated and dedicated time to creating and collecting meaningful
         works of art. Until now, there have been a number of barriers holding
@@ -30,7 +30,7 @@ const About = () => {
       <p>
         <strong>This is where Cold Truth Culture steps in...</strong>
       </p>
-      <p>
+      <p className="content-text">
         We offer the chance for artists of all skill levels to begin their
         journey with digital artwork on the blockchain as well as provide them
         with an incubator of sorts to help kick start their career. CTC artists
@@ -48,7 +48,7 @@ const About = () => {
       </p>
       <br />
 
-      <p>
+      <p className="content-text">
         Pioneers in the early stages of the new digital blockchain age within
         popular media, the Cold Truth Culture NFT community has solidified
         itself within the Unifty NFT environment by creating a decentralised
@@ -61,7 +61,7 @@ const About = () => {
         simultaneously increasing its value for artists, the consumers, and the
         crypto-world: the only place where this can be possible.
       </p>
-    </div>
+    </Container>
   );
 };
 

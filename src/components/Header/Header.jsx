@@ -11,7 +11,7 @@ const Header = (props) => {
     <Navbar variant="dark" id="navbar" expand="lg" collapseOnSelect>
       <Navbar.Brand href="/" className="ml-3">
         <img src={CTClogoGreen} alt="CTC logo" className="mr-3" />
-        Cold <span className="truth_green">Truth</span> Culture
+        Cold <span className="truth-green">Truth</span> Culture
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

@@ -14,7 +14,7 @@ const Artists = () => {
       <Col>
         <h2>Featured Artists</h2>
         <p className="content-text">
-          We are here to <span className="truth_green">shape</span> the future
+          We are here to <span className="truth-green">shape</span> the future
         </p>
 
         <Carousel
