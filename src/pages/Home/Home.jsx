@@ -8,7 +8,7 @@ import Intro from "../../components/Intro/Intro";
 const Home = () => {
   return (
     <>
-    <Container fluid className="bg-red">
+    <Container fluid>
 
       <Hero />
       <Intro />
