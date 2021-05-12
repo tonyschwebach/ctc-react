@@ -1,15 +1,45 @@
-#artists{
-  background-color: black ;
-  color: white ;
+#artists {
+  background-color: black;
+  color: white;
 }
 
-.carousel-inner{
-  background-color: orange ;
-  color: black  ;
-  text-align: left;
+.carousel {
+  max-width: 800px;
 
 }
-.carousel-caption{
-  color: black  ;
+
+.carousel-inner {
+  background-color: white;
+  color: black !important;
   text-align: left;
+  width:500px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+
 }
+.carousel-caption {
+  color: black !important;
+  text-align: left;
+  position: absolute;
+  left: 200px;
+}
+
+.carousel-control-prev {
+  opacity: 100% !important;
+}
+.carousel-control-prev:hover {
+  opacity: 50% !important;
+}
+
+.carousel-control-next {
+  opacity: 100% !important;
+}
+
+.carousel-control-next:hover {
+  opacity: 50% !important;
+}
+
+.carousel-indicators li{
+  background-color: #66ff00 !important;
+}
+

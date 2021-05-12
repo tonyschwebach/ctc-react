@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Button, Container, Row, Col } from "react-bootstrap";
+import { Button, Container, Row, Col } from "react-bootstrap";
 import "./Hero.css";
 import cat from "../../Assets/images/art/cat.png";
 import yinyang from "../../Assets/images/art/yinyang.png";
