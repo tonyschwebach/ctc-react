@@ -1,29 +1,41 @@
 #hero{
-  margin:0;
-  padding: 0;
+  height: 90vh;
+  width: 100vw;
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('../../Assets/images/hero_bg.png');
 
 }
 
 #hero_body {
-  background-color: #66ff00;
   padding-top: 12rem;
   padding-bottom: 12rem;
+  padding-left: 3rem;
+ 
   text-align: left;
+  /* background-color: red; */
 }
 
+#featured_art_container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
 #hero_cat {
   position: absolute;
-  top: -100px;
-  left: 20px;
+  top: -150px;
+  left: 10px;
 }
 #hero_yinyang {
   position: absolute;
-  top: 0px;
+  top: -50px;
   left: 120px;
 }
 #hero_tv {
   position: absolute;
-  top: -100px;
+  top: -150px;
   left: 250px;
 }
 
@@ -31,4 +43,11 @@
   height: 104px;
   background-color: black;
   color: #66ff00;
+}
+
+.light_button{
+  background-color: white !important;
+  color: black !important;
+  border:black 2px solid !important;
+  border-radius: 0px !important;
 }

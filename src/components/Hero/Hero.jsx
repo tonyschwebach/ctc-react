@@ -9,28 +9,38 @@ const Hero = () => {
   return (
     <div>
       <Jumbotron id="hero">
-        <Row id="hero_body">
-          <Col lg={7}>
-            <Container>
-              <h1>Cold Truth Culture -</h1>
-              <h2>
-                A Community That <br />
-                Empowers NFT Artists
-              </h2>
-              <Button variant="light">Learn more</Button>
+        <Row >
+          <Col lg={7} id="hero_body">
+            <Container >
+              <Row>
+                <Col>
+                  <h1>Cold Truth Culture -</h1>
+                  <h2>
+                    A Community That <br />
+                    Empowers NFT Artists
+                  </h2>
+                </Col>
+              </Row>
+              <Button className="light_button">Learn more</Button>
             </Container>
           </Col>
-          <Col lg={5}>
-            <Container id="featured_art_container">
-              <img src={cat} alt="cat" id="hero_cat" />
-              <img src={yinyang} alt="yin yang" id="hero_yinyang" />
-              <img src={tv} alt="tv" id="hero_tv" />
+          <Col lg={5} id="featured_art_container">
+            <Container >
+              <Row>
+                <Col>
+                  <img src={cat} alt="cat" id="hero_cat" />
+                  <img src={yinyang} alt="yin yang" id="hero_yinyang" />
+                  <img src={tv} alt="tv" id="hero_tv" />
+                </Col>
+              </Row>
             </Container>
           </Col>
         </Row>
-        <Row>
-          <Col id="hero_footer">Cold Truth Culture</Col>
-        </Row>
+        {/* <Row>
+          <Col id="hero_footer" className="align-middle">
+            Cold Truth Culture
+          </Col>
+        </Row> */}
       </Jumbotron>
     </div>
   );
