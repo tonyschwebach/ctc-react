@@ -9,9 +9,9 @@ const Hero = () => {
   return (
     <div>
       <Jumbotron id="hero">
-        <Row >
+        <Row>
           <Col lg={7} id="hero_body">
-            <Container >
+            <Container>
               <Row>
                 <Col>
                   <h1>Cold Truth Culture -</h1>
@@ -24,8 +24,8 @@ const Hero = () => {
               <Button className="light_button">Learn more</Button>
             </Container>
           </Col>
-          <Col lg={5}  id="featured_art_container">
-            <Container >
+          <Col lg={5} className="featured_art_container">
+            <Container>
               <Row>
                 <Col>
                   <img src={cat} alt="cat" id="hero_cat" />
@@ -37,9 +37,7 @@ const Hero = () => {
           </Col>
         </Row>
         <Row id="hero_footer" className="align-middle">
-          <Col >
-            Cold Truth Culture
-          </Col>
+          <Col>Cold Truth Culture</Col>
         </Row>
       </Jumbotron>
     </div>
