@@ -10,7 +10,7 @@ const Hero = () => {
     <div>
       <Jumbotron id="hero">
         <Row>
-          <Col lg={7} id="hero_body">
+          <Col lg={6} id="hero_body">
             <Container>
               <Row>
                 <Col>
@@ -24,7 +24,7 @@ const Hero = () => {
               <Button className="light_button">Learn more</Button>
             </Container>
           </Col>
-          <Col lg={5} className="featured_art_container">
+          <Col lg={6} className="featured_art_container">
             <Container>
               <Row>
                 <Col>
@@ -36,8 +36,8 @@ const Hero = () => {
             </Container>
           </Col>
         </Row>
-        <Row id="hero_footer" className="align-middle">
-          <Col>Cold Truth Culture</Col>
+        <Row className="mx-0" >
+          <Col id="hero_footer" className="align-middle">Cold Truth Culture</Col>
         </Row>
       </Jumbotron>
     </div>

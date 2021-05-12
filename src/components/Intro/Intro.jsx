@@ -9,20 +9,25 @@ const Intro = () => {
     <div>
       <Jumbotron id="intro">
         <Row>
-          <Col lg={7} id="intro_body">
+          <Col lg={6} id="intro_body">
             <Container>
               <Row>
                 <Col>
-                  <h2>
-                    A Community That <br />
-                    Empowers NFT Artists
-                  </h2>
+                  <h2>What is this?</h2>
+                  <p className="content-text">
+                    Cold Truth Culture is a community that works together to
+                    build something truly special. It’s a safe place in crypto
+                    space for people to hang out, talk and learn about digital
+                    assets, NFTs, share ideas, share artwork and reward people
+                    that do the right thing!
+                  </p>
                 </Col>
               </Row>
-              <Button className="light_button">Learn more</Button>
+              <Button href="/about"className="green_button">
+                About Us</Button>
             </Container>
           </Col>
-          <Col lg={5} className="featured_art_container">
+          <Col lg={6} className="featured_art_container">
             <Container>
               <Row>
                 <Col>
