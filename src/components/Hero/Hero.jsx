@@ -8,38 +8,33 @@ import tv from "../../Assets/images/art/tv.png";
 const Hero = () => {
   return (
     <div>
-      <Jumbotron id="hero">
-        <Row>
-          <Col lg={6} id="hero_body">
-            <Container>
-              <Row>
-                <Col>
-                  <h1>Cold Truth Culture -</h1>
-                  <h2>
-                    A Community That <br />
-                    Empowers NFT Artists
-                  </h2>
-                </Col>
-              </Row>
-              <Button className="light_button">Learn more</Button>
-            </Container>
-          </Col>
-          <Col lg={6} className="featured_art_container">
-            <Container>
-              <Row>
-                <Col>
-                  <img src={cat} alt="cat" id="hero_cat" />
-                  <img src={yinyang} alt="yin yang" id="hero_yinyang" />
-                  <img src={tv} alt="tv" id="hero_tv" />
-                </Col>
-              </Row>
-            </Container>
-          </Col>
-        </Row>
-        <Row className="mx-0" >
-          <Col id="hero_footer" className="align-middle">Cold Truth Culture</Col>
-        </Row>
-      </Jumbotron>
+      <Row id="hero">
+        <Col lg={6} id="hero_body">
+          <h1>Cold Truth Culture -</h1>
+          <h2>
+            A Community That <br />
+            Empowers NFT Artists
+          </h2>
+
+          <Button className="light_button">Learn more</Button>
+        </Col>
+        <Col lg={6} className="featured_art_container">
+          <Container>
+            <Row>
+              <Col>
+                <img src={cat} alt="cat" id="hero_cat" />
+                <img src={yinyang} alt="yin yang" id="hero_yinyang" />
+                <img src={tv} alt="tv" id="hero_tv" />
+              </Col>
+            </Row>
+          </Container>
+        </Col>
+      </Row>
+      <Row>
+        <Col id="hero_footer" className="align-middle">
+          Cold Truth Culture
+        </Col>
+      </Row>
     </div>
   );
 };

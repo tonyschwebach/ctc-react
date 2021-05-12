@@ -1,13 +1,7 @@
 #hero{
-  margin: 0px;
-  padding: 0px;
-  /* height: 80vh; */
-  width: 100%;
-  /* position: absolute; */
   background-size: cover;
-  background-position: 50% 50%;
   background-image: url('../../Assets/images/hero_bg.png');
-
+  background-color: green;
 }
 
 #hero_body {

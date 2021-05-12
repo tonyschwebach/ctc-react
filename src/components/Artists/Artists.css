@@ -1,0 +1,15 @@
+#artists{
+  background-color: black ;
+  color: white ;
+}
+
+.carousel-inner{
+  background-color: orange ;
+  color: black  ;
+  text-align: left;
+
+}
+.carousel-caption{
+  color: black  ;
+  text-align: left;
+}
