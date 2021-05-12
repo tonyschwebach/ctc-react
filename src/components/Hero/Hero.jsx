@@ -24,7 +24,7 @@ const Hero = () => {
               <Button className="light_button">Learn more</Button>
             </Container>
           </Col>
-          <Col lg={5} id="featured_art_container">
+          <Col lg={5}  id="featured_art_container">
             <Container >
               <Row>
                 <Col>
@@ -36,11 +36,11 @@ const Hero = () => {
             </Container>
           </Col>
         </Row>
-        {/* <Row>
-          <Col id="hero_footer" className="align-middle">
+        <Row id="hero_footer" className="align-middle">
+          <Col >
             Cold Truth Culture
           </Col>
-        </Row> */}
+        </Row>
       </Jumbotron>
     </div>
   );

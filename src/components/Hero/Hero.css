@@ -1,7 +1,9 @@
 #hero{
-  height: 90vh;
+  margin: 0px;
+  padding: 0px;
+  /* height: 80vh; */
   width: 100vw;
-  position: absolute;
+  /* position: absolute; */
   background-size: cover;
   background-position: 50% 50%;
   background-image: url('../../Assets/images/hero_bg.png');
@@ -12,16 +14,15 @@
   padding-top: 12rem;
   padding-bottom: 12rem;
   padding-left: 3rem;
- 
   text-align: left;
-  /* background-color: red; */
+
+
 }
 
 #featured_art_container{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-
 }
 #hero_cat {
   position: absolute;
