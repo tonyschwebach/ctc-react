@@ -7,7 +7,7 @@ import tv from "../../Assets/images/art/tv.png";
 
 const Hero = () => {
   return (
-    <div>
+    <>
       <Row id="hero">
         <Col lg={6} id="hero_body">
           <h1>Cold Truth Culture -</h1>
@@ -35,7 +35,7 @@ const Hero = () => {
           Cold Truth Culture
         </Col>
       </Row>
-    </div>
+    </>
   );
 };
 

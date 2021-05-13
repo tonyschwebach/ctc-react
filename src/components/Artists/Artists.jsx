@@ -10,7 +10,7 @@ import prev from "../../Assets/images/misc/prev.svg";
 
 const Artists = () => {
   return (
-    <Row id="artists">
+    <Row id="artists" >
       <Col>
         <h2>Featured Artists</h2>
         <p className="content-text">

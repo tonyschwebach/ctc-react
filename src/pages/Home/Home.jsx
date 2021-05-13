@@ -13,7 +13,7 @@ const Home = () => {
       <Hero />
       <Intro />
       <Artists />
-      {/* <GetStarted/> */}
+      <GetStarted/>
 
 
     </Container>

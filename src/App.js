@@ -5,6 +5,7 @@ import About from "./pages/About/About";
 import Rewards from "./pages/Rewards/Rewards";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/rewards" component={Rewards} />
           <Route path="*" component={Home} />
         </Switch>
+        {/* <Footer /> */}
       </Router>
     </div>
   );
