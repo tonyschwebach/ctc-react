@@ -1,0 +1,47 @@
+[
+  {
+    "name": "UNIFTY",
+    "image": "unifty.png",
+    "link": "https://unifty.io/"
+  },
+  {
+    "name": "1Hive",
+    "image": "1hive.png",
+    "link": "https://1hive.org/"
+  },
+  {
+    "name": "xDAI",
+    "image": "xdai.png",
+    "link": "https://www.xdaichain.com/"
+  },
+  {
+    "name": "Agave",
+    "image": "agave.png",
+    "link": "https://agave.finance/"
+  },
+  {
+    "name": "Gnosis",
+    "image": "gnosis.png",
+    "link": "https://gnosis.io/"
+  },
+  {
+    "name": "Unicrypt",
+    "image": "unicrypt.png",
+    "link": "https://www.unicrypt.network/"
+  },
+  {
+    "name": "Honeyswap",
+    "image": "honeyswap.png",
+    "link": "https://honeyswap.org/"
+  },
+  {
+    "name": "Colony",
+    "image": "colony.png",
+    "link": "https://colony.io/"
+  },
+  {
+    "name": "AhegaoDAO",
+    "image": "ahegaodao.png",
+    "link": "https://ahegaodao.org/"
+  }
+]
