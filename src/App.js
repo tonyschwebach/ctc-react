@@ -18,7 +18,7 @@ function App() {
           <Route path="/rewards" component={Rewards} />
           <Route path="*" component={Home} />
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );
