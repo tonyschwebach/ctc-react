@@ -3,6 +3,7 @@
 }
 
 .partner-card {
+  border-radius: 0px;
 }
 
 .card-body {
@@ -11,4 +12,14 @@
 
 .dropdown {
   text-align: right;
+}
+
+a{
+  color:black !important
+}
+
+#get_started_footer{
+  height: 104px;
+  background-color: #66ff00;
+  color: black;
 }

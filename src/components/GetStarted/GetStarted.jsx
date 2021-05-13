@@ -19,7 +19,7 @@ const GetStarted = () => {
       </Row>
       <Row>
         <Col>
-          <Container>
+          <Container >
             <CardDeck>
               <Card className="partner-card">
                 <Card.Body>
@@ -66,8 +66,8 @@ const GetStarted = () => {
                     rel="noreferrer"
                   >
                     <img src={honeyswap} alt="honeyswap" />
-                    <Card.Title>honeyswap</Card.Title>
-                    <Card.Text>Trade $COLD on xDai Chain</Card.Text>
+                    <Card.Title>Honeyswap</Card.Title>
+                    <Card.Text className="content-text">Trade $COLD on xDai Chain</Card.Text>
                   </a>
                 </Card.Body>
               </Card>
@@ -139,31 +139,43 @@ const GetStarted = () => {
                   </Dropdown>
 
                   <a
-                    href="https://app.honeyswap.org/#/swap?inputCurrency=0xdbcade285846131a5e7384685eaddbdfd9625557&outputCurrency=0xe91d153e0b41518a2ce8dd3d7944fa863463a97d"
+                    href="https://unifty.io/xdai/market.html?address=0xA0007F3b6B40f9B108b33AAEC3891BD41B906628"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img src={unifty} alt="unifty" />
                     <Card.Title>Unifty</Card.Title>
-                    <Card.Text>Acquire NFTs on Unifty</Card.Text>
+                    <Card.Text className="content-text">Acquire NFTs on Unifty</Card.Text>
                   </a>
                 </Card.Body>
               </Card>
               <Card>
                 <Card.Body>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="link" id="dropdown-basic" className="hidden" >
+                      <img src={ellipsis} alt="more" height="25px" />
+                    </Dropdown.Toggle>
+
+
+                  </Dropdown>
                   <a
-                    href="https://app.honeyswap.org/#/swap?inputCurrency=0xdbcade285846131a5e7384685eaddbdfd9625557&outputCurrency=0xe91d153e0b41518a2ce8dd3d7944fa863463a97d"
+                    href="https://unicrypt.network/amm/honey/token/0xdbcadE285846131a5e7384685EADDBDFD9625557"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img src={unicrpyt} alt="unicrypt" />
                     <Card.Title>Unicrypt</Card.Title>
-                    <Card.Text>Trade $COLD on Unicrypt</Card.Text>
+                    <Card.Text className="content-text">Trade $COLD on Unicrypt</Card.Text>
                   </a>
                 </Card.Body>
               </Card>
             </CardDeck>
           </Container>
+        </Col>
+      </Row>
+      <Row>
+        <Col id="get_started_footer" className="align-middle mt-5">
+          Cold Truth Culture
         </Col>
       </Row>
     </>
