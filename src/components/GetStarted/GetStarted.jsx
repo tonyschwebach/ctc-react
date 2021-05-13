@@ -71,7 +71,7 @@ const GetStarted = () => {
                   </a>
                 </Card.Body>
               </Card>
-              <Card>
+              <Card className="partner-card">
                 <Card.Body>
                   <Dropdown>
                     <Dropdown.Toggle variant="link" id="dropdown-basic">
@@ -149,7 +149,7 @@ const GetStarted = () => {
                   </a>
                 </Card.Body>
               </Card>
-              <Card>
+              <Card className="partner-card">
                 <Card.Body>
                   <Dropdown>
                     <Dropdown.Toggle variant="link" id="dropdown-basic" className="hidden" >
