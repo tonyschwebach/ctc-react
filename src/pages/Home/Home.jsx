@@ -4,6 +4,7 @@ import Artists from "../../components/Artists/Artists";
 import GetStarted from "../../components/GetStarted/GetStarted";
 import Hero from "../../components/Hero/Hero";
 import Intro from "../../components/Intro/Intro";
+import Partnerships from "../../components/Partnerships/Partnerships";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Intro />
       <Artists />
       <GetStarted/>
+      <Partnerships />
 
 
     </Container>

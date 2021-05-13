@@ -19,9 +19,9 @@ const GetStarted = () => {
       </Row>
       <Row>
         <Col>
-          <Container >
+          <Container>
             <CardDeck>
-              <Card className="partner-card">
+              <Card className="action-card">
                 <Card.Body>
                   <Dropdown>
                     <Dropdown.Toggle variant="link" id="dropdown-basic">
@@ -67,11 +67,13 @@ const GetStarted = () => {
                   >
                     <img src={honeyswap} alt="honeyswap" />
                     <Card.Title>Honeyswap</Card.Title>
-                    <Card.Text className="content-text">Trade $COLD on xDai Chain</Card.Text>
+                    <Card.Text className="content-text">
+                      Trade $COLD on xDai Chain
+                    </Card.Text>
                   </a>
                 </Card.Body>
               </Card>
-              <Card className="partner-card">
+              <Card className="action-card">
                 <Card.Body>
                   <Dropdown>
                     <Dropdown.Toggle variant="link" id="dropdown-basic">
@@ -145,18 +147,31 @@ const GetStarted = () => {
                   >
                     <img src={unifty} alt="unifty" />
                     <Card.Title>Unifty</Card.Title>
-                    <Card.Text className="content-text">Acquire NFTs on Unifty</Card.Text>
+                    <Card.Text className="content-text">
+                      Acquire NFTs on Unifty
+                    </Card.Text>
                   </a>
                 </Card.Body>
               </Card>
-              <Card className="partner-card">
+              <Card className="action-card">
                 <Card.Body>
                   <Dropdown>
-                    <Dropdown.Toggle variant="link" id="dropdown-basic" className="hidden" >
+                    <Dropdown.Toggle
+                      variant="link"
+                      id="dropdown-basic"
+                      className="hidden"
+                    >
                       <img src={ellipsis} alt="more" height="25px" />
                     </Dropdown.Toggle>
-
-
+                    <Dropdown.Menu align="right">
+                      <Dropdown.Item
+                        href="https://unicrypt.network/amm/honey/token/0xdbcadE285846131a5e7384685EADDBDFD9625557"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Unicrpyt Pairs
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
                   </Dropdown>
                   <a
                     href="https://unicrypt.network/amm/honey/token/0xdbcadE285846131a5e7384685EADDBDFD9625557"
@@ -165,7 +180,9 @@ const GetStarted = () => {
                   >
                     <img src={unicrpyt} alt="unicrypt" />
                     <Card.Title>Unicrypt</Card.Title>
-                    <Card.Text className="content-text">Trade $COLD on Unicrypt</Card.Text>
+                    <Card.Text className="content-text">
+                      Trade $COLD on Unicrypt
+                    </Card.Text>
                   </a>
                 </Card.Body>
               </Card>

@@ -2,11 +2,14 @@
   padding-top: 5rem;
 }
 
-.partner-card a{
-  border-radius: 0px;
+.action-card{
+  border: black 2px solid !important;
+  border-radius: 0px !important;
+}
+.action-card a{
   color: black !important;
 }
-.partner-card:hover a{
+.action-card:hover a{
 text-decoration: none;
 }
 
