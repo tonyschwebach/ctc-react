@@ -1,3 +1,19 @@
 #partnerships {
   padding-top: 5rem;
 }
+
+#blue_cat{
+  position: absolute;
+  left:-180px;
+  z-index: 3;
+}
+#green_cat{
+  position: absolute;
+  left:-65px;
+  z-index: 2;
+}
+#pink_cat{
+  position: absolute;
+  left: 25px;
+  z-index: 1;
+}
