@@ -1,4 +1,5 @@
 import React from "react";
+import Ticker from "react-ticker";
 import { Button, Container, Row, Col } from "react-bootstrap";
 import "./Hero.css";
 import cat from "../../Assets/images/art/cat.png";
@@ -31,8 +32,14 @@ const Hero = () => {
         </Col>
       </Row>
       <Row>
-        <Col id="hero_footer" className="align-middle">
-          Cold Truth Culture
+        <Col id="hero_footer" className="align-left text-left">
+          <Ticker mode="chain" speed={7} offset={70}>
+            {({ index }) => (
+              <>
+                <p className="ticker-text">COLD TRUTH CULTURE</p>
+              </>
+            )}
+          </Ticker>
         </Col>
       </Row>
     </>
