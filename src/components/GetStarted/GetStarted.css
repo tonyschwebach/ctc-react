@@ -2,15 +2,15 @@
   padding-top: 5rem;
 }
 
-.action-card{
+.action-card {
   border: black 2px solid !important;
   border-radius: 0px !important;
 }
-.action-card a{
+.action-card a {
   color: black !important;
 }
-.action-card:hover a{
-text-decoration: none;
+.action-card a:hover {
+  text-decoration: none;
 }
 
 .card-body {
@@ -21,8 +21,7 @@ text-decoration: none;
   text-align: right;
 }
 
-
-#get_started_footer{
+#get_started_footer {
   height: 104px;
   background-color: #66ff00;
   color: black;
