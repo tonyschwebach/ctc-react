@@ -1,0 +1,15 @@
+.partner a {
+  color: black;
+  font-size: 12px;
+}
+
+.partner a:hover {
+  text-decoration: none;
+}
+
+.partner-icon-container {
+  height: 60px;
+  background-color: #fff;
+  text-align: center;
+}
+

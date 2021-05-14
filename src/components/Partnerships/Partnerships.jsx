@@ -17,7 +17,7 @@ const Partnerships = () => {
           <img src={catPink} alt="pink cat"  id="pink_cat"/>
         </Col>
         <Col lg={7}>
-          <h2>Our partnerships</h2>
+          <h2 className="mb-5">Our partnerships</h2>
           <Row className="justify-content-center">
             {partners.map((partner, index) => (
               <Partner {...partner} key={index} />

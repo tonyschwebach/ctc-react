@@ -2,9 +2,9 @@ import React from "react";
 import { Row, Col, Card, CardDeck, Container, Dropdown } from "react-bootstrap";
 import "./GetStarted.css";
 import ellipsis from "../../Assets/images/misc/ellipsis-v.svg";
-import honeyswap from "../../Assets/images/logos/honeyswap.png";
-import unifty from "../../Assets/images/logos/unifty.png";
-import unicrpyt from "../../Assets/images/logos/unicrypt.png";
+import honeyswap from "../../Assets/images/logos/action_honeyswap.png";
+import unifty from "../../Assets/images/logos/action_unifty.png";
+import unicrpyt from "../../Assets/images/logos/action_unicrypt.png";
 
 const GetStarted = () => {
   return (
