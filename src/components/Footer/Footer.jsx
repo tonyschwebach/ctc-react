@@ -12,70 +12,83 @@ const Footer = () => {
     <footer id="footer">
       <Container fluid className="pt-5 pb-5">
         <Row>
-          <Col lg={3}>
-            <a href="/" className="ml-3">
-              <img src={CTClogoText} alt="CTC logo" className="mr-3" />
-            </a>
-          </Col>
-          <Col lg={3}>
-            <ul className="list-unstyled">
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/about">About</Link>
-              </li>
-              <li>
-                <Link to="/cold">$COLD</Link>
-              </li>
-              <li>
-                <Link to="/education">Education</Link>
-              </li>
-              <li>
-                <Link to="/rewards">Rewards</Link>
-              </li>
-            </ul>
-          </Col>
-          <Col lg={3}>
-            <h5>We invite you</h5>
-            <p className="content-text ">
-              Looking to learn more about Cold Truth Culture? No matter where
-              you’re from and what's your skills are, you can always become part
-              of the Community just by joining our social media channels. We
-              invite you to explore with us!
-            </p>
-          </Col>
-          <Col lg={3}>
-            <a
-              href="mailto:coldtruthcult@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              coldtruthcult@gmail.com
-            </a>
-            <Container className="d-flex justify-content-around">
-              <a
-                href="https://t.me/ColdTruthCultureNFTs"
-                target="_blank"
-                rel="noreferrer"
+          <Col xl={6}>
+            <Row>
+              <Col sm={7} className="mb-5">
+                <a href="/" className="">
+                  <img src={CTClogoText} alt="CTC logo" className="mr-3" />
+                </a>
+              </Col>
+              <Col
+                sm={5}
+                className="content-text text-left d-flex justify-content-around mb-4"
               >
-                <img src={telegram} alt="telegram" />
-              </a>
-              <a
-                href="https://twitter.com/ColdTruthCult"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={twitter} alt="twitter" />
-              </a>
-              <a
-                href="https://discord.com/invite/GSmaQYuwcZ"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={discord} alt="discord" />
-              </a>
-            </Container>
+                <Row>
+                  <Col xs={6}>
+                    <Link to="/">Home</Link>
+                  </Col>
+                  <Col xs={6}>
+                    <Link to="/about">About</Link>
+                  </Col>
+                  <Col xs={6}>
+                    <Link to="/cold">$COLD</Link>
+                  </Col>
+                  <Col xs={6}>
+                    <Link to="/education">Education</Link>
+                  </Col>
+                  <Col xs={6}>
+                    <Link to="/rewards">Rewards</Link>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Col>
+
+          <Col xl={6}>
+            <Row>
+              <Col lg={8} className="text-left">
+                <h5>We invite you</h5>
+                <p className="content-text">
+                  Looking to learn more about Cold Truth Culture? No matter
+                  where you’re from and what's your skills are, you can always
+                  become part of the Community just by joining our social media
+                  channels. We invite you to explore with us!
+                </p>
+              </Col>
+              <Col lg={4} className="mb-4">
+                <a
+                  href="mailto:coldtruthcult@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="content-text fw-bold"
+                >
+                  coldtruthcult@gmail.com
+                </a>
+                <Container className="d-flex justify-content-around mt-3">
+                  <a
+                    href="https://t.me/ColdTruthCultureNFTs"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={telegram} alt="telegram" />
+                  </a>
+                  <a
+                    href="https://twitter.com/ColdTruthCult"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={twitter} alt="twitter" />
+                  </a>
+                  <a
+                    href="https://discord.com/invite/GSmaQYuwcZ"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={discord} alt="discord" />
+                  </a>
+                </Container>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>
