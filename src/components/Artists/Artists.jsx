@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Carousel, Container } from "react-bootstrap";
+import { Row, Col, Carousel } from "react-bootstrap";
 import "./Artists.css";
 import portals from "../../Assets/images/art/artist_portals.png";
 import sammyCold from "../../Assets/images/art/artist_sammy_cold.png";

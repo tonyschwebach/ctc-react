@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import React from "react";
+import { Row, Col } from "react-bootstrap";
 import partners from "./partners.json";
 import Partner from "./Partner/Partner";
 import catBlue from "../../Assets/images/art/cat_3_blue.png";
