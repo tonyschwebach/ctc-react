@@ -4,16 +4,17 @@
   padding-top: 5rem;
 }
 
+.artist-image{
+  max-width: 100%;
+}
+
 .carousel {
   max-width: 800px;
-
 }
 
 .carousel-inner {
-  background-color: white;
-  color: black !important;
-  text-align: left;
-  width:500px !important;
+
+  max-width: 500px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 
@@ -40,7 +41,22 @@
   opacity: 50% !important;
 }
 
-.carousel-indicators li{
+.artist{
+  background-color: white;
+  color: black !important;
+  text-align: left;
+  border: #66ff00 2px solid !important;
+  border-radius: 0px !important;
+  height: 10rem;
+}
+
+.carousel-indicators li {
   background-color: #66ff00 !important;
 }
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -3rem !important;
+}
+
 
