@@ -25,10 +25,10 @@ const Artists = () => {
           <Carousel.Item>
             <Container>
               <Row className="artist">
-                <Col md={4} className="my-auto">
+                <Col xs={4} className="my-auto">
                   <img src={portals} alt="portals" className="artist-image" />
                 </Col>
-                <Col lg={8} className="my-auto">
+                <Col xs={8} className="my-auto">
                   <h5>Portals</h5>
                   <p className="content-text fw-bold">
                     Founder of Cold Truth Culture NFTs, Developer and Music
@@ -42,14 +42,14 @@ const Artists = () => {
           <Carousel.Item>
             <Container>
               <Row className="artist">
-                <Col md={4} className="my-auto">
+                <Col xs={4} className="my-auto">
                   <img
                     src={sammyCold}
                     alt="sammy cold"
                     className="artist-image"
                   />
                 </Col>
-                <Col lg={8} className="my-auto">
+                <Col xs={8} className="my-auto">
                   <h5>Sammy Cold</h5>
                   <p className="content-text fw-bold">
                     OG Music and Tattoo Artist of Cold Truth Culture, Music
@@ -62,10 +62,10 @@ const Artists = () => {
           <Carousel.Item>
             <Container>
               <Row className="artist">
-                <Col md={4} className="my-auto">
+                <Col xs={4} className="my-auto">
                   <img src={chomsky} alt="shomsky" className="artist-image" />
                 </Col>
-                <Col lg={8} className="my-auto">
+                <Col xs={8} className="my-auto">
                   <h5>Chomsky</h5>
                   <p className="content-text fw-bold">unknown</p>
                 </Col>
@@ -75,14 +75,14 @@ const Artists = () => {
           <Carousel.Item>
             <Container>
               <Row className="artist">
-                <Col md={4} className="my-auto">
+                <Col xs={4} className="my-auto">
                   <img
                     src={sammiches}
                     alt="sammiches"
                     className="artist-image"
                   />
                 </Col>
-                <Col lg={8} className="my-auto">
+                <Col xs={8} className="my-auto">
                   <h5>Sammiches</h5>
                   <p className="content-text fw-bold">
                     Engineer turned NFT Artist of Cold Truth Culture working
