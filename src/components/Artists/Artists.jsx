@@ -13,7 +13,7 @@ const Artists = () => {
     <Row id="artists" className="pb-5">
       <Col>
         <h2>Featured Artists</h2>
-        <p className="content-text fw-bold">
+        <p className="content-text">
           We are here to <span className="truth-green">shape</span> the future
         </p>
 
@@ -30,7 +30,7 @@ const Artists = () => {
                 </Col>
                 <Col xs={8} className="my-auto">
                   <h5>Portals</h5>
-                  <p className="content-text fw-bold">
+                  <p className="content-text ">
                     Founder of Cold Truth Culture NFTs, Developer and Music
                     Artist
                   </p>
@@ -51,7 +51,7 @@ const Artists = () => {
                 </Col>
                 <Col xs={8} className="my-auto">
                   <h5>Sammy Cold</h5>
-                  <p className="content-text fw-bold">
+                  <p className="content-text ">
                     OG Music and Tattoo Artist of Cold Truth Culture, Music
                     Producer, Clothing Designer
                   </p>
@@ -67,7 +67,7 @@ const Artists = () => {
                 </Col>
                 <Col xs={8} className="my-auto">
                   <h5>Chomsky</h5>
-                  <p className="content-text fw-bold">unknown</p>
+                  <p className="content-text ">unknown</p>
                 </Col>
               </Row>
             </Container>
@@ -84,10 +84,9 @@ const Artists = () => {
                 </Col>
                 <Col xs={8} className="my-auto">
                   <h5>Sammiches</h5>
-                  <p className="content-text fw-bold">
-                    Engineer turned NFT Artist of Cold Truth Culture working
-                    with programs such as Photoshop, Illustrator, Solidworks and
-                    Vizualize
+                  <p className="content-text ">
+                    Engineer turned Cold Truth Culture NFT Artist using
+                    Photoshop, Illustrator, Solidworks and Vizualize
                   </p>
                 </Col>
               </Row>

@@ -60,9 +60,9 @@ const Footer = () => {
                   href="mailto:coldtruthcult@gmail.com"
                   target="_blank"
                   rel="noreferrer"
-                  className="content-text fw-bold"
+                  className="content-text"
                 >
-                  coldtruthcult@gmail.com
+                  <strong>coldtruthcult@gmail.com</strong>
                 </a>
                 <Container className="d-flex justify-content-around mt-3">
                   <a

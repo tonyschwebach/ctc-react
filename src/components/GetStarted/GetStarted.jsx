@@ -67,7 +67,7 @@ const GetStarted = () => {
                     rel="noreferrer"
                   >
                     <img src={honeyswap} alt="honeyswap" />
-                    <Card.Title>Honeyswap</Card.Title>
+                    <Card.Title className="mt-3">Honeyswap</Card.Title>
                     <Card.Text className="content-text">
                       Trade $COLD on xDai Chain
                     </Card.Text>
