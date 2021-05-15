@@ -1,7 +1,6 @@
 #hero {
   background-size: cover;
-  background-image: url("../../Assets/images/misc/hero_bg.png");
-  background-color: green;
+  background-image: url("../../Assets/images/misc/green_ctc_bg.png");
 }
 
 #hero_body {

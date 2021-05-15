@@ -1,10 +1,11 @@
 #artists {
-  background-color: black;
+  background-image: url("../../Assets/images/misc/black_ctc_bg.png");
+  background-size: cover;
   color: white;
   padding-top: 5rem;
 }
 
-.artist-image{
+.artist-image {
   max-width: 100%;
 }
 
@@ -13,11 +14,9 @@
 }
 
 .carousel-inner {
-
   max-width: 500px !important;
   margin-left: auto !important;
   margin-right: auto !important;
-
 }
 .carousel-caption {
   color: black !important;
@@ -41,7 +40,7 @@
   opacity: 50% !important;
 }
 
-.artist{
+.artist {
   background-color: white;
   color: black !important;
   text-align: left;
@@ -58,5 +57,3 @@
   position: absolute;
   bottom: -3rem !important;
 }
-
-
