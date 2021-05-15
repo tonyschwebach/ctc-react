@@ -33,7 +33,7 @@ const Hero = () => {
       </Row>
       <Row>
         <Col id="hero_footer" className="align-left text-left">
-          <Ticker mode="chain" speed={7} offset={70}>
+          <Ticker mode="chain" speed={7}>
             {({ index }) => (
               <>
                 <p className="ticker-text">COLD TRUTH CULTURE</p>

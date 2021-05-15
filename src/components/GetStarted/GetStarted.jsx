@@ -193,7 +193,7 @@ const GetStarted = () => {
       </Row>
       <Row>
         <Col id="get_started_footer" className="align-middle mt-5">
-          <Ticker mode="chain" speed={7} offset={70}>
+          <Ticker mode="chain" speed={7}>
             {({ index }) => (
               <>
                 <p className="ticker-text">COLD TRUTH CULTURE</p>
