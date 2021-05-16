@@ -31,9 +31,9 @@ const Hero = () => {
               src={yinyang}
               alt="yin yang"
               id="hero-yinyang"
-              class="img-move img-fluid"
+              className="img-move img-fluid"
             />
-            <img src={tv} alt="tv" id="hero-tv" class="img-move  img-fluid" />
+            <img src={tv} alt="tv" id="hero-tv" className="img-move  img-fluid" />
           </Container>
         </Col>
       </Row>
