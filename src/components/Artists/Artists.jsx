@@ -20,8 +20,8 @@ const Artists = () => {
 
           <Carousel
             className="mx-auto"
-            nextIcon={<img src={next} alt="previous" />}
-            prevIcon={<img src={prev} alt="next" />}
+            // nextIcon={<img src={next} alt="previous" />}
+            // prevIcon={<img src={prev} alt="next" />}
             transition={"false"}
           >
             <Carousel.Item>
