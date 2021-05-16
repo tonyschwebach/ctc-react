@@ -9,7 +9,7 @@ import sammiches from "../../Assets/images/art/artist_sammiches.png";
 const Artists = () => {
   return (
     <>
-      <Row id="artists" className="pb-5">
+      <Row id="artists">
         <Col>
           <h2>Featured Artists</h2>
           <p className="content-text">

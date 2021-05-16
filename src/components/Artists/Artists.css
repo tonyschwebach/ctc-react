@@ -3,6 +3,7 @@
   background-size: cover;
   color: white;
   padding-top: 5rem;
+  padding-bottom: 8rem;
 }
 
 .artist-image {
@@ -23,9 +24,10 @@
   border-radius: 0px !important;
 }
 
-#carousel-outline{
+#carousel-outline {
   margin-left: auto !important;
   margin-right: auto !important;
+  margin-top: -9rem;
   max-width: 500px;
   height: 11rem;
   border: 3px solid #66ff00;
@@ -34,13 +36,7 @@
   position: relative;
   top: 10rem;
   left: -1rem;
-
 }
-
-.carousel-item{
-  /* overflow: hidden; */
-}
-
 
 .artist {
   text-align: left;

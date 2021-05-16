@@ -13,7 +13,7 @@ const GetStarted = () => {
       <Row id="get-started">
         <Col>
           <h2>Get Started</h2>
-          <p className="content-text">
+          <p className="content-text pb-3">
             Platform gates to Cold Truth Culture NFT farms and $COLD token
           </p>
         </Col>
