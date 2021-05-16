@@ -147,7 +147,7 @@ const GetStarted = () => {
                     rel="noreferrer"
                   >
                     <img src={unifty} alt="unifty" />
-                    <Card.Title>Unifty</Card.Title>
+                    <Card.Title className="mt-3">Unifty</Card.Title>
                     <Card.Text className="content-text">
                       Acquire NFTs on Unifty
                     </Card.Text>
@@ -180,7 +180,7 @@ const GetStarted = () => {
                     rel="noreferrer"
                   >
                     <img src={unicrpyt} alt="unicrypt" />
-                    <Card.Title>Unicrypt</Card.Title>
+                    <Card.Title className="mt-3">Unicrypt</Card.Title>
                     <Card.Text className="content-text">
                       Trade $COLD on Unicrypt
                     </Card.Text>
