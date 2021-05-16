@@ -16,6 +16,7 @@ const Artists = () => {
             We are here to <span className="truth-green">shape</span> the future
           </p>
 
+          <div id="carousel-outline"></div>
           <Carousel className="mx-auto" interval={300000} transition={"false"}>
             <Carousel.Item>
               <Container>

@@ -21,19 +21,19 @@
   color: black !important;
   border: none !important;
   border-radius: 0px !important;
-  position: relative;
-  /* overflow:visible !important; */
 }
 
-.carousel-inner:before{
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: -12px;
-  width: 100%;
-  height: 100%;
+#carousel-outline{
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 500px;
+  height: 11rem;
   border: 3px solid #66ff00;
   box-sizing: border-box;
+  z-index: 1;
+  position: relative;
+  top: 10rem;
+  left: -1rem;
 
 }
 
@@ -44,7 +44,7 @@
 
 .artist {
   text-align: left;
-  height: 10rem;
+  height: 11rem;
 }
 
 .carousel-caption {
