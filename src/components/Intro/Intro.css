@@ -43,6 +43,19 @@
 .green-button {
   background-color: #66ff00 !important;
   color: black !important;
-  border: black 2px solid !important;
+  border: none !important;
   border-radius: 0px !important;
+  position: relative;
+  padding: 0.7rem 2rem !important;
+}
+
+.green-button:before{
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: -7px;
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+  box-sizing: border-box;
 }
