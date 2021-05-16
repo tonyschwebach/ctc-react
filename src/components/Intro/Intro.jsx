@@ -27,27 +27,31 @@ const Intro = () => {
         </Container>
       </Col>
       <Col lg={6} className="featured-art-container">
-        <Container>
-          <Row>
-            <Col>
-              <img src={leaf} alt="leaf" id="intro-leaf" />
-              <img
-                src={transendence}
-                alt="transcendence outline 1"
-                id="intro-trans-1"
-              />
-              <img
-                src={transendence}
-                alt="transcendence outline 2"
-                id="intro-trans-2"
-              />
-              <img
-                src={transendence}
-                alt="transcendence outline 3"
-                id="intro-trans-3"
-              />
-            </Col>
-          </Row>
+        <Container id="intro-art">
+          <img
+            src={leaf}
+            alt="leaf"
+            id="intro-leaf"
+            className="img-move img-fluid"
+          />
+          <img
+            src={transendence}
+            alt="transcendence outline 1"
+            id="intro-trans-1"
+            className="img-move img-fluid"
+          />
+          <img
+            src={transendence}
+            alt="transcendence outline 2"
+            id="intro-trans-2"
+            className="img-move img-fluid"
+          />
+          <img
+            src={transendence}
+            alt="transcendence outline 3"
+            id="intro-trans-3"
+            className="img-move img-fluid"
+          />
         </Container>
       </Col>
     </Row>
