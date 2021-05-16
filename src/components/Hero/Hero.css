@@ -34,9 +34,21 @@
 .light-button {
   background-color: white !important;
   color: black !important;
-  border: black 2px solid !important;
+  border: none !important;
   border-radius: 0px !important;
-  box-shadow: -5px 5px 0 0px black, -5px 5px 0 1px white;
+  position: relative;
+  padding: 0.7rem 2rem !important;
+}
+
+.light-button:before{
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: -7px;
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+  box-sizing: border-box;
 }
 
 #hero-footer {
