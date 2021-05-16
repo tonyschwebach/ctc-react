@@ -29,7 +29,7 @@
   opacity: 1   !important;
 }
 .carousel-control-prev:hover {
-  opacity: 50% !important;
+  opacity: 0.5 !important;
 }
 .carousel-control-prev-icon {
   background-image: url("../../Assets/images/misc/prev.png") !important;
@@ -42,7 +42,7 @@
 }
 
 .carousel-control-next:hover {
-  opacity: 50% !important;
+  opacity: 0.5 !important;
 }
 .carousel-control-next-icon {
   background-image: url("../../Assets/images/misc/next.png") !important;
