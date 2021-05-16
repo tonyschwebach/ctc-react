@@ -17,7 +17,36 @@
   max-width: 500px !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  background-color: white;
+  color: black !important;
+  border: none !important;
+  border-radius: 0px !important;
+  position: relative;
+  /* overflow:visible !important; */
 }
+
+.carousel-inner:before{
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -12px;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #66ff00;
+  box-sizing: border-box;
+
+}
+
+.carousel-item{
+  /* overflow: hidden; */
+}
+
+
+.artist {
+  text-align: left;
+  height: 10rem;
+}
+
 .carousel-caption {
   color: black !important;
   text-align: left;
@@ -26,7 +55,7 @@
 }
 
 .carousel-control-prev {
-  opacity: 1   !important;
+  opacity: 1 !important;
 }
 .carousel-control-prev:hover {
   opacity: 0.5 !important;
@@ -48,15 +77,6 @@
   background-image: url("../../Assets/images/misc/next.png") !important;
   width: 55px !important;
   height: 55px !important;
-}
-
-.artist {
-  background-color: white;
-  color: black !important;
-  text-align: left;
-  border: #66ff00 2px solid !important;
-  border-radius: 0px !important;
-  height: 10rem;
 }
 
 .carousel-indicators li {

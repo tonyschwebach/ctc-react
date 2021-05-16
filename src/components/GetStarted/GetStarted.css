@@ -19,8 +19,6 @@
   box-sizing: border-box;
 }
 
-
-
 .action-card a {
   color: black !important;
 }
@@ -34,6 +32,9 @@
 
 .dropdown {
   text-align: right;
+}
+.action-dropdown{
+  margin-bottom: -2rem;
 }
 
 #get-started-footer {

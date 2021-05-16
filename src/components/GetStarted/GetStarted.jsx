@@ -24,7 +24,7 @@ const GetStarted = () => {
             <CardDeck>
               <Card className="action-card">
                 <Card.Body>
-                  <Dropdown>
+                  <Dropdown className="action-dropdown">
                     <Dropdown.Toggle variant="link" id="dropdown-basic">
                       <img src={ellipsis} alt="more" height="25px" />
                     </Dropdown.Toggle>
@@ -76,7 +76,7 @@ const GetStarted = () => {
               </Card>
               <Card className="action-card">
                 <Card.Body>
-                  <Dropdown>
+                  <Dropdown className="action-dropdown">
                     <Dropdown.Toggle variant="link" id="dropdown-basic">
                       <img src={ellipsis} alt="more" height="25px" />
                     </Dropdown.Toggle>
@@ -156,7 +156,7 @@ const GetStarted = () => {
               </Card>
               <Card className="action-card">
                 <Card.Body>
-                  <Dropdown>
+                  <Dropdown className="action-dropdown">
                     <Dropdown.Toggle
                       variant="link"
                       id="dropdown-basic"
