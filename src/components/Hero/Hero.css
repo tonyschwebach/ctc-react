@@ -11,24 +11,38 @@
 }
 
 .featured-art-container {
+  width: 100%;
+  /* background-color: yellow; */
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  
 }
+#hero-art {
+  margin: auto !important;
+  position: relative;
+  position: relative;
+  height: 370px;
+  width:425px;
+  /* background-color: red; */
+}
+
 #hero-cat {
   position: absolute;
-  top: -150px;
-  left: 10px;
+  left:0px;
+  /* top: -150px;
+  left: 10px; */
 }
 #hero-yinyang {
   position: absolute;
-  top: -50px;
-  left: 120px;
+  top: 100px;
+  left: 110px;
+  /* top: -50px;
+  left: 120px; */
 }
 #hero-tv {
   position: absolute;
-  top: -150px;
-  left: 250px;
+  left:250px;
+  /* top: -150px;
+  left: 250px; */
 }
 
 .light-button {
@@ -40,7 +54,7 @@
   padding: 0.7rem 2rem !important;
 }
 
-.light-button:before{
+.light-button:before {
   content: "";
   position: absolute;
   top: -7px;
@@ -63,3 +77,5 @@
   margin-bottom: 0px;
   white-space: nowrap;
 }
+
+

@@ -20,14 +20,20 @@ const Hero = () => {
           <Button className="light-button">Learn more</Button>
         </Col>
         <Col lg={6} className="featured-art-container">
-          <Container>
-            <Row>
-              <Col>
-                <img src={cat} alt="cat" id="hero-cat" />
-                <img src={yinyang} alt="yin yang" id="hero-yinyang" />
-                <img src={tv} alt="tv" id="hero-tv" />
-              </Col>
-            </Row>
+          <Container id="hero-art">
+            <img
+              src={cat}
+              alt="cat"
+              id="hero-cat"
+              className="img-move img-fluid"
+            />
+            <img
+              src={yinyang}
+              alt="yin yang"
+              id="hero-yinyang"
+              class="img-move img-fluid"
+            />
+            <img src={tv} alt="tv" id="hero-tv" class="img-move  img-fluid" />
           </Container>
         </Col>
       </Row>
