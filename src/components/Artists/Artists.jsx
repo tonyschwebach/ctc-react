@@ -5,8 +5,6 @@ import portals from "../../Assets/images/art/artist_portals.png";
 import sammyCold from "../../Assets/images/art/artist_sammy_cold.png";
 import chomsky from "../../Assets/images/art/artist_chomsky.png";
 import sammiches from "../../Assets/images/art/artist_sammiches.png";
-import next from "../../Assets/images/misc/next.png";
-import prev from "../../Assets/images/misc/prev.png";
 
 const Artists = () => {
   return (
@@ -20,8 +18,7 @@ const Artists = () => {
 
           <Carousel
             className="mx-auto"
-            // nextIcon={<img src={next} alt="previous" />}
-            // prevIcon={<img src={prev} alt="next" />}
+            interval={3000}
             transition={"false"}
           >
             <Carousel.Item>
