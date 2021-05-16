@@ -2,18 +2,33 @@
   padding-top: 5rem;
 }
 
-#blue-cat{
+#partner-art {
+  margin: auto !important;
+  position: relative;
+  position: relative;
+  height: 480px;
+  /* height: 100%; */
+  max-width: 600px;
+  width: 100%;
+  overflow: hidden;
+  /* background-color: red; */
+}
+
+#blue-cat {
   position: absolute;
-  left:-180px;
+  width: 69%;
+  left: -6%;
   z-index: 3;
 }
-#green-cat{
+#green-cat {
   position: absolute;
-  left:-65px;
+  width: 69%;
+  left: 17%;
   z-index: 2;
 }
-#pink-cat{
+#pink-cat {
   position: absolute;
-  left: 25px;
+  width: 69%;
+  left: 38%;
   z-index: 1;
 }
