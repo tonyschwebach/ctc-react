@@ -2,38 +2,32 @@
   background-color: white;
 }
 
-#intro_body {
+#intro-body {
   padding-top: 12rem;
   padding-bottom: 12rem;
   padding-left: 3rem;
   text-align: left;
 }
 
-.featured_art_container {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-#intro_leaf {
+#intro-leaf {
   position: absolute;
   top: -140px;
   left: -50px;
   z-index: 1;
 }
-#intro_trans_1 {
+#intro-trans-1 {
   position: absolute;
   top: -50px;
   left: 0px;
   z-index: 0;
 }
-#intro_trans_2 {
+#intro-trans-2 {
   position: absolute;
   top: -83px;
   left: 140px;
   z-index: 0;
 }
-#intro_trans_3 {
+#intro-trans-3 {
   position: absolute;
   top: -50px;
   left: 280px;
@@ -46,7 +40,7 @@
   font-weight: bold;
 }
 
-.green_button {
+.green-button {
   background-color: #66ff00 !important;
   color: black !important;
   border: black 2px solid !important;

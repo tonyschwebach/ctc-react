@@ -10,29 +10,29 @@ const Hero = () => {
   return (
     <>
       <Row id="hero">
-        <Col lg={6} id="hero_body">
+        <Col lg={6} id="hero-body">
           <h1>Cold Truth Culture -</h1>
           <h2>
             A Community That <br />
             Empowers NFT Artists
           </h2>
 
-          <Button className="light_button">Learn more</Button>
+          <Button className="light-button">Learn more</Button>
         </Col>
-        <Col lg={6} className="featured_art_container">
+        <Col lg={6} className="featured-art-container">
           <Container>
             <Row>
               <Col>
-                <img src={cat} alt="cat" id="hero_cat" />
-                <img src={yinyang} alt="yin yang" id="hero_yinyang" />
-                <img src={tv} alt="tv" id="hero_tv" />
+                <img src={cat} alt="cat" id="hero-cat" />
+                <img src={yinyang} alt="yin yang" id="hero-yinyang" />
+                <img src={tv} alt="tv" id="hero-tv" />
               </Col>
             </Row>
           </Container>
         </Col>
       </Row>
       <Row>
-        <Col id="hero_footer" className="align-left text-left">
+        <Col id="hero-footer" className="align-left text-left">
           <Ticker mode="chain" speed={7}>
             {({ index }) => (
               <>

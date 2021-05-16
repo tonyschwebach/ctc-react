@@ -7,7 +7,7 @@ import transendence from "../../Assets/images/art/transcendence_black.png";
 const Intro = () => {
   return (
     <Row id="intro">
-      <Col lg={6} id="intro_body">
+      <Col lg={6} id="intro-body">
         <Container>
           <Row>
             <Col>
@@ -21,30 +21,30 @@ const Intro = () => {
               </p>
             </Col>
           </Row>
-          <Button href="/about" className="green_button">
+          <Button href="/about" className="green-button">
             About Us
           </Button>
         </Container>
       </Col>
-      <Col lg={6} className="featured_art_container">
+      <Col lg={6} className="featured-art-container">
         <Container>
           <Row>
             <Col>
-              <img src={leaf} alt="leaf" id="intro_leaf" />
+              <img src={leaf} alt="leaf" id="intro-leaf" />
               <img
                 src={transendence}
                 alt="transcendence outline 1"
-                id="intro_trans_1"
+                id="intro-trans-1"
               />
               <img
                 src={transendence}
                 alt="transcendence outline 2"
-                id="intro_trans_2"
+                id="intro-trans-2"
               />
               <img
                 src={transendence}
                 alt="transcendence outline 3"
-                id="intro_trans_3"
+                id="intro-trans-3"
               />
             </Col>
           </Row>

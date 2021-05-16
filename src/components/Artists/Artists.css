@@ -32,7 +32,7 @@
   opacity: 50% !important;
 }
 .carousel-control-prev-icon {
-  background-image: url("../../Assets/images/misc/prev.svg") !important;
+  background-image: url("../../Assets/images/misc/prev.png") !important;
   width: 55px !important;
   height: 55px !important;
 }
@@ -45,7 +45,7 @@
   opacity: 50% !important;
 }
 .carousel-control-next-icon {
-  background-image: url("../../Assets/images/misc/next.svg") !important;
+  background-image: url("../../Assets/images/misc/next.png") !important;
   width: 55px !important;
   height: 55px !important;
 }

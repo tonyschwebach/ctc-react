@@ -12,9 +12,9 @@ const Partnerships = () => {
     <div>
       <Row id="partnerships" className="justify-content-center">
         <Col lg={5}>
-          <img src={catBlue} alt="blue cat" id="blue_cat" />
-          <img src={catGreen} alt="green cat" id="green_cat" />
-          <img src={catPink} alt="pink cat"  id="pink_cat"/>
+          <img src={catBlue} alt="blue cat" id="blue-cat" />
+          <img src={catGreen} alt="green cat" id="green-cat" />
+          <img src={catPink} alt="pink cat"  id="pink-cat"/>
         </Col>
         <Col lg={7}>
           <h2 className="mb-5">Our partnerships</h2>

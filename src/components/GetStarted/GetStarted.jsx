@@ -10,7 +10,7 @@ import unicrpyt from "../../Assets/images/logos/action_unicrypt.png";
 const GetStarted = () => {
   return (
     <>
-      <Row id="get_started">
+      <Row id="get-started">
         <Col>
           <h2>Get Started</h2>
           <p className="content-text">
@@ -192,7 +192,7 @@ const GetStarted = () => {
         </Col>
       </Row>
       <Row>
-        <Col id="get_started_footer" className="align-middle mt-5">
+        <Col id="get-started-footer" className="align-middle mt-5">
           <Ticker mode="chain" speed={7}>
             {({ index }) => (
               <>
