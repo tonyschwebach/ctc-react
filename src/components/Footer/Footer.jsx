@@ -31,7 +31,13 @@ const Footer = () => {
                     <Link to="/about">About</Link>
                   </Col>
                   <Col xs={6}>
-                    <Link to="/cold">$COLD</Link>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://app.honeyswap.org/#/swap?inputCurrency=0xe91d153e0b41518a2ce8dd3d7944fa863463a97d&outputCurrency=0xdbcade285846131a5e7384685eaddbdfd9625557"
+                    >
+                      $COLD
+                    </a>
                   </Col>
                   <Col xs={6}>
                     <Link to="/education">Education</Link>
@@ -46,7 +52,7 @@ const Footer = () => {
 
           <Col xl={7}>
             <Row>
-              <Col lg={8} className="text-left">
+              <Col lg={7} className="text-left">
                 <h5>We invite you</h5>
                 <p className="content-text">
                   Looking to learn more about Cold Truth Culture? No matter
@@ -55,14 +61,15 @@ const Footer = () => {
                   channels. We invite you to explore with us!
                 </p>
               </Col>
-              <Col lg={4} className="mb-4">
+              <Col lg={5} className="mb-4">
                 <a
-                  href="mailto:coldtruthcult@gmail.com"
+                  href="mailto:crosschainapplications@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="content-text"
+                  id="footer-email"
                 >
-                  <strong>coldtruthcult@gmail.com</strong>
+                  <strong>crosschainapplications@gmail.com</strong>
                 </a>
                 <Container className="d-flex justify-content-around mt-3">
                   <a
@@ -85,6 +92,13 @@ const Footer = () => {
                     rel="noreferrer"
                   >
                     <img src={discord} alt="discord" />
+                  </a>
+                  <a
+                    href="https://medium.com/@ColdTruthCultureNFTs"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <strong className="truth-green">M</strong>
                   </a>
                 </Container>
               </Col>
