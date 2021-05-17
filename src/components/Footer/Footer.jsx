@@ -57,12 +57,12 @@ const Footer = () => {
               </Col>
               <Col lg={4} className="mb-4">
                 <a
-                  href="mailto:coldtruthcult@gmail.com"
+                  href="mailto:crosschainapplications@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="content-text"
                 >
-                  <strong>coldtruthcult@gmail.com</strong>
+                  <strong>crosschainapplications@gmail.com</strong>
                 </a>
                 <Container className="d-flex justify-content-around mt-3">
                   <a
