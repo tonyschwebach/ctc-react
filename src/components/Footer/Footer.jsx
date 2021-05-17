@@ -46,7 +46,7 @@ const Footer = () => {
 
           <Col xl={7}>
             <Row>
-              <Col lg={8} className="text-left">
+              <Col lg={7} className="text-left">
                 <h5>We invite you</h5>
                 <p className="content-text">
                   Looking to learn more about Cold Truth Culture? No matter
@@ -55,12 +55,13 @@ const Footer = () => {
                   channels. We invite you to explore with us!
                 </p>
               </Col>
-              <Col lg={4} className="mb-4">
+              <Col lg={5} className="mb-4">
                 <a
                   href="mailto:crosschainapplications@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="content-text"
+                  id="footer-email"
                 >
                   <strong>crosschainapplications@gmail.com</strong>
                 </a>

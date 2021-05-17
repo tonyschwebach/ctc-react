@@ -175,7 +175,7 @@ const GetStarted = () => {
                     <img src={unicrpyt} alt="unicrypt" />
                     <Card.Title className="mt-3">Unicrypt</Card.Title>
                     <Card.Text className="content-text">
-                      Trade $COLD on Unicrypt
+                    $COLD locked on Unicrypt
                     </Card.Text>
                   </a>
                 </Card.Body>
