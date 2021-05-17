@@ -5,6 +5,7 @@ import CTClogoText from "../../Assets/images/logos/CTC_logo_text.png";
 import telegram from "../../Assets/images/logos/telegram.png";
 import twitter from "../../Assets/images/logos/twitter.png";
 import discord from "../../Assets/images/logos/discord.png";
+import medium from "../../Assets/images/logos/medium.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -98,7 +99,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <strong className="truth-green">M</strong>
+                   <img src={medium} alt="medium" />
                   </a>
                 </Container>
               </Col>
