@@ -12,7 +12,7 @@ const Footer = () => {
     <footer id="footer">
       <Container fluid className="pt-5 pb-5">
         <Row>
-          <Col xl={6}>
+          <Col xl={5}>
             <Row>
               <Col sm={7} className="mb-5">
                 <a href="/" className="">
@@ -44,7 +44,7 @@ const Footer = () => {
             </Row>
           </Col>
 
-          <Col xl={6}>
+          <Col xl={7}>
             <Row>
               <Col lg={8} className="text-left">
                 <h5>We invite you</h5>
