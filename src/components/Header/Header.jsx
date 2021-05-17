@@ -8,7 +8,7 @@ const Header = (props) => {
   const { location } = props;
 
   return (
-    <Navbar variant="dark" id="navbar" expand="lg" collapseOnSelect>
+    <Navbar variant="dark" id="navbar" expand="md" collapseOnSelect>
       <Navbar.Brand href="/" className="ml-3">
         <img src={CTClogoGreen} alt="CTC logo" className="mr-3" />
       </Navbar.Brand>
@@ -27,7 +27,7 @@ const Header = (props) => {
           <Nav.Link href="/education" className="mx-1">
             Education
           </Nav.Link>
-          <Nav.Link href="/rewards" className="mx-1">
+          <Nav.Link href="/rewards" className="ml-1 mr-2">
             Rewards
           </Nav.Link>
 
@@ -36,7 +36,7 @@ const Header = (props) => {
             id="collapsible-nav-dropdown"
             menuAlign="right"
             variant="light"
-            className="mr-3 ml-1 my-auto"
+            className="mr-3 ml-1 my-auto mx-auto"
           >
             <NavDropdown.Item
               href="https://discord.gg/GSmaQYuwcZ"
