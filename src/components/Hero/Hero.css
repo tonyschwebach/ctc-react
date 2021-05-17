@@ -4,32 +4,30 @@
 }
 
 #hero-body {
-  padding-top: 12rem;
-  padding-bottom: 12rem;
+  padding-top: 22vh;
+  padding-bottom: 22vh;
   padding-left: 3rem;
   text-align: left;
 }
 
 .featured-art-container {
   width: 100%;
-  /* background-color: yellow; */
   display: flex;
-  
 }
 #hero-art {
   margin: auto !important;
   position: relative;
   position: relative;
   height: 370px;
-  max-width:425px;
+  max-width: 425px;
   width: 100%;
   overflow: hidden;
 }
 
 #hero-cat {
   position: absolute;
-  width:56%;
-  left:0%;
+  width: 56%;
+  left: 0%;
 }
 #hero-yinyang {
   position: absolute;
@@ -40,7 +38,7 @@
 #hero-tv {
   position: absolute;
   width: 42%;
-  left:59%;
+  left: 59%;
 }
 
 .light-button {
@@ -74,4 +72,12 @@
   white-space: nowrap;
 }
 
-
+@media only screen and (max-width: 767px) {
+  #hero-body {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  #hero-body h2 {
+  font-size: 1.2rem;
+  }
+}

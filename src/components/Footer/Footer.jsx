@@ -11,7 +11,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer id="footer">
-      <Container fluid className="pt-5 pb-5">
+      <Container fluid className="pt-5 pb-5 mt-5">
         <Row>
           <Col xl={5}>
             <Row>
