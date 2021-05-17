@@ -1,13 +1,12 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import "./Rewards.css"
+import "./Rewards.css";
 
 const Rewards = () => {
   return (
     <Container className="mt-5">
       <h2>
         <strong>
-          {" "}
           Cold <span className="truth-green">Truth </span> Culture Rewards
           Program
         </strong>
