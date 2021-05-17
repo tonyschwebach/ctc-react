@@ -115,13 +115,6 @@ const GetStarted = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        CTC Music NFT Farm xDAI/COLD LP STAKE
-                      </Dropdown.Item>
-                      <Dropdown.Item
-                        href="https://unifty.io/xdai/farm-view.html?address=0xFcf213136b9D48d210AA79B7F372e6e63BDF2737"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
                         The Collective LP NFT Farm xDAI/COLD LP STAKE
                       </Dropdown.Item>
                       <Dropdown.Item
