@@ -9,7 +9,7 @@ import tv from "../../Assets/images/art/tv.png";
 const Hero = () => {
   return (
     <>
-      <Row id="hero" className="justify-content-md-center">
+      <Row id="hero" className="justify-content-lg-center">
         <Container>
           <Row>
             <Col lg="auto" id="hero-body">
