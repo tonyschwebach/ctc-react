@@ -86,7 +86,7 @@
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
   #intro-art {
     height: 350px;
   }

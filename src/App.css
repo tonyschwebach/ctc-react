@@ -7,4 +7,11 @@
   text-align: center;
   font-family: "druk-wide", Arial, Helvetica, sans-serif;
   color: black;
+  min-height: 100vh;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
