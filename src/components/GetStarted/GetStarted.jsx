@@ -124,13 +124,6 @@ const GetStarted = () => {
                       >
                         Ice Cold NFT Farm COLD STAKE
                       </Dropdown.Item>
-                      <Dropdown.Item
-                        href="https://unifty.io/xdai/farm-view.html?address=0xe1bD67dcd93C17cbC474aA2BFB7a90D2Ed892EDb"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        CRIPTOGRANJA EBOY COLD STAKE
-                      </Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
 
@@ -175,7 +168,7 @@ const GetStarted = () => {
                     <img src={unicrpyt} alt="unicrypt" />
                     <Card.Title className="mt-3">Unicrypt</Card.Title>
                     <Card.Text className="content-text">
-                    $COLD locked on Unicrypt
+                      $COLD locked on Unicrypt
                     </Card.Text>
                   </a>
                 </Card.Body>
