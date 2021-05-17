@@ -3,15 +3,14 @@
 }
 
 #partner-art {
-  margin: auto !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
   position: relative;
   position: relative;
-  height: 390px;
-  /* height: 100%; */
+  height: 320px;
   max-width: 500px;
   width: 100%;
   overflow: hidden;
-  /* background-color: red; */
 }
 
 #blue-cat {
@@ -31,4 +30,11 @@
   width: 69%;
   left: 38%;
   z-index: 1;
+}
+
+
+@media only screen and (max-width: 767px) {
+  #partner-art {
+    height:250px
+  }
 }
