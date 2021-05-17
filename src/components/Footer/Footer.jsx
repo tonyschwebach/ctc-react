@@ -31,7 +31,13 @@ const Footer = () => {
                     <Link to="/about">About</Link>
                   </Col>
                   <Col xs={6}>
-                    <Link to="/cold">$COLD</Link>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://app.honeyswap.org/#/swap?inputCurrency=0xe91d153e0b41518a2ce8dd3d7944fa863463a97d&outputCurrency=0xdbcade285846131a5e7384685eaddbdfd9625557"
+                    >
+                      $COLD
+                    </a>
                   </Col>
                   <Col xs={6}>
                     <Link to="/education">Education</Link>
