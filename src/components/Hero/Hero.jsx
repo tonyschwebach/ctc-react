@@ -9,33 +9,42 @@ import tv from "../../Assets/images/art/tv.png";
 const Hero = () => {
   return (
     <>
-      <Row id="hero">
-        <Col lg={6} id="hero-body">
-          <h1>Cold Truth Culture -</h1>
-          <h2>
-            A Community That <br />
-            Empowers NFT Artists
-          </h2>
+      <Row id="hero" className="justify-content-md-center">
+        <Container>
+          <Row>
+            <Col lg="auto" id="hero-body">
+              <h1>Cold Truth Culture —</h1>
+              <h2>
+                A Community That <br />
+                Empowers NFT Artists
+              </h2>
 
-          <Button className="light-button">Learn more</Button>
-        </Col>
-        <Col lg={6} className="featured-art-container">
-          <Container id="hero-art">
-            <img
-              src={cat}
-              alt="cat"
-              id="hero-cat"
-              className="img-move img-fluid"
-            />
-            <img
-              src={yinyang}
-              alt="yin yang"
-              id="hero-yinyang"
-              className="img-move img-fluid"
-            />
-            <img src={tv} alt="tv" id="hero-tv" className="img-move  img-fluid" />
-          </Container>
-        </Col>
+              <Button className="light-button">Learn more</Button>
+            </Col>
+            <Col className="featured-art-container">
+              <Container id="hero-art">
+                <img
+                  src={cat}
+                  alt="cat"
+                  id="hero-cat"
+                  className="img-move img-fluid"
+                />
+                <img
+                  src={yinyang}
+                  alt="yin yang"
+                  id="hero-yinyang"
+                  className="img-move img-fluid"
+                />
+                <img
+                  src={tv}
+                  alt="tv"
+                  id="hero-tv"
+                  className="img-move  img-fluid"
+                />
+              </Container>
+            </Col>
+          </Row>
+        </Container>
       </Row>
       <Row>
         <Col id="hero-footer" className="align-left text-left">
