@@ -93,6 +93,13 @@ const Footer = () => {
                   >
                     <img src={discord} alt="discord" />
                   </a>
+                  <a
+                    href="https://medium.com/@ColdTruthCultureNFTs"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <strong className="truth-green">M</strong>
+                  </a>
                 </Container>
               </Col>
             </Row>
