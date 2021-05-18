@@ -5,12 +5,9 @@ import "./Rewards.css";
 const Rewards = () => {
   return (
     <Container className="mt-5">
-      <h2>
-        <strong>
-          Cold <span className="truth-green">Truth </span> Culture Rewards
-          Program
-        </strong>
-      </h2>
+      <strong>
+        <h2>Rewards Program</h2>
+      </strong>
       <h5 className="mt-4">Rewards Table</h5>
       <ul className="list-unstyled content-text">
         <li>Ice Cold OGs: 50% Cold Truth Cashback</li>

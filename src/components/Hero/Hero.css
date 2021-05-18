@@ -66,16 +66,6 @@
   color: #66ff00;
 }
 
-@media only screen and (max-width: 767px) {
-  #hero-body {
-    padding-top: 4rem;
-    padding-bottom: 2rem;
-  }
-  #hero-body h2 {
-  font-size: 1.2rem;
-  }
-}
-
 .marquee {
   position: relative;
   height: 105px;
@@ -96,3 +86,24 @@
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
 }
+
+
+@media only screen and (max-width: 991px) {
+  #hero-body {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #hero-body {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  #hero-body h2 {
+  font-size: 1.2rem !important;
+  }
+  h2{
+    font-size: 1.8rem !important;
+  }
+}
+

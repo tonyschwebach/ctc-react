@@ -4,9 +4,11 @@ import { Container } from "react-bootstrap";
 const About = () => {
   return (
     <Container className="mt-5">
-      <h2>
-        <strong> About Cold <span className="truth-green">Truth </span> Culture</strong>
-      </h2>
+      <strong>
+        <h2>
+          Cold <span className="truth-green">Truth </span> Culture
+        </h2>
+      </strong>
       <p className="content-text">
         Since the beginning of time, every culture from all around of the world
         has appreciated and dedicated time to creating and collecting meaningful
