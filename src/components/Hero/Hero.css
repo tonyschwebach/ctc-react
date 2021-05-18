@@ -66,18 +66,44 @@
   color: #66ff00;
 }
 
-.ticker-text {
+.marquee {
+  position: relative;
+  height: 105px;
+  overflow-x: hidden;
+
   font-size: 70px;
   margin-bottom: 0px;
-  white-space: nowrap;
 }
 
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+
+@media only screen and (max-width: 991px) {
+  #hero-body {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+}
 @media only screen and (max-width: 767px) {
   #hero-body {
     padding-top: 4rem;
     padding-bottom: 2rem;
   }
   #hero-body h2 {
-  font-size: 1.2rem;
+  font-size: 1.2rem !important;
+  }
+  h2{
+    font-size: 1.8rem !important;
   }
 }
+
