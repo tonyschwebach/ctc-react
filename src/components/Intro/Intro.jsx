@@ -87,7 +87,12 @@ const Intro = () => {
                 >
                   Buy $COLD
                 </Button>
-                <Button href="/education" className="light-button ml-5 mt-4">
+                <Button
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://hackmd.io/w1BXMNjJSFukrlq7F9t_-A?both"
+                  className="light-button ml-5 mt-4"
+                >
                   Learn More
                 </Button>
               </Container>

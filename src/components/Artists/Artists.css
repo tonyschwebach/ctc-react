@@ -83,3 +83,13 @@
   position: absolute;
   bottom: -3rem !important;
 }
+
+@media only screen and (max-width: 767px) {
+  .carousel-control-next-icon {
+    display: none !important;
+
+  }
+  .carousel-control-prev-icon {
+    display: none !important;
+  }
+}

@@ -18,7 +18,12 @@ const Hero = () => {
                 Empowers NFT Artists
               </h2>
 
-              <Button href="/education" className="light-button mt-4">
+              <Button
+                href="https://medium.com/@ColdTruthCultureNFTs"
+                target="_blank"
+                rel="noreferrer"
+                className="light-button mt-4"
+              >
                 Learn more
               </Button>
             </Col>
