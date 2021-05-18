@@ -1,5 +1,10 @@
-#intro {
+#intro-this {
   background-color: white;
+}
+
+#intro-cold {
+  background-image: url("../../Assets/images/misc/holo_bg.png");
+  background-size: cover;
 }
 
 #intro-body {
