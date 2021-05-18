@@ -18,7 +18,9 @@ const Hero = () => {
                 Empowers NFT Artists
               </h2>
 
-              <Button className="light-button">Learn more</Button>
+              <Button href="/education" className="light-button mt-4">
+                Learn more
+              </Button>
             </Col>
             <Col className="featured-art-container">
               <Container id="hero-art">
