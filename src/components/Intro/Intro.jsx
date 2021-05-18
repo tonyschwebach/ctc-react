@@ -3,14 +3,15 @@ import { Button, Container, Row, Col } from "react-bootstrap";
 import "./Intro.css";
 import leaf from "../../Assets/images/art/leaf.png";
 import transendence from "../../Assets/images/art/transcendence_black.png";
+import artCluster from "../../Assets/images/art/art_cluster.png";
 
 const Intro = () => {
   return (
-    <>
+    <div id="intro">
       <Row id="intro-this" className="justify-content-lg-center">
         <Container>
           <Row>
-            <Col lg={6} id="intro-body">
+            <Col lg={6} className="intro-body">
               <Container>
                 <Row>
                   <Col>
@@ -64,35 +65,7 @@ const Intro = () => {
       <Row id="intro-cold" className="justify-content-lg-center">
         <Container>
           <Row>
-            <Col lg={6} className="featured-art-container">
-              <Container id="intro-art">
-                <img
-                  src={leaf}
-                  alt="leaf"
-                  id="intro-leaf"
-                  className="img-move img-fluid"
-                />
-                <img
-                  src={transendence}
-                  alt="transcendence outline 1"
-                  id="intro-trans-1"
-                  className="img-move img-fluid"
-                />
-                <img
-                  src={transendence}
-                  alt="transcendence outline 2"
-                  id="intro-trans-2"
-                  className="img-move img-fluid"
-                />
-                <img
-                  src={transendence}
-                  alt="transcendence outline 3"
-                  id="intro-trans-3"
-                  className="img-move img-fluid"
-                />
-              </Container>
-            </Col>
-            <Col lg={6} id="intro-body">
+            <Col lg={{ cols: 7, order: 12 }} className="intro-body ">
               <Container>
                 <Row>
                   <Col>
@@ -119,10 +92,19 @@ const Intro = () => {
                 </Button>
               </Container>
             </Col>
+            <Col lg={{ cols: 5, order: 1 }} className="featured-art-container">
+              <Container>
+                <img
+                  src={artCluster}
+                  alt="art cluster"
+                  className=" img-fluid"
+                />
+              </Container>
+            </Col>
           </Row>
         </Container>
       </Row>
-    </>
+    </div>
   );
 };
 

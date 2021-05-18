@@ -1,3 +1,7 @@
+#intro {
+  /* margin-bottom: -5rem; */
+}
+
 #intro-this {
   background-color: white;
 }
@@ -7,9 +11,9 @@
   background-size: cover;
 }
 
-#intro-body {
-  padding-top: 22vh;
-  padding-bottom: 22vh;
+.intro-body {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
   padding-left: 3rem;
   text-align: left;
 }
@@ -85,7 +89,7 @@
 }
 
 @media only screen and (max-width: 991px) {
-  #intro-body {
+  .intro-body {
     padding-top: 4rem;
     padding-bottom: 2rem;
   }
