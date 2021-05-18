@@ -1,5 +1,4 @@
 import React from "react";
-import Ticker from "react-ticker";
 import { Row, Col, Card, CardDeck, Container, Dropdown } from "react-bootstrap";
 import "./GetStarted.css";
 import ellipsis from "../../Assets/images/misc/ellipsis-v.svg";
@@ -183,13 +182,12 @@ const GetStarted = () => {
       </Row>
       <Row>
         <Col id="get-started-footer" className="align-middle mt-5">
-          <Ticker mode="chain" speed={7}>
-            {({ index }) => (
-              <>
-                <p className="ticker-text">COLD TRUTH CULTURE</p>
-              </>
-            )}
-          </Ticker>
+        <div className="marquee">
+            <div className="track">
+              &nbsp;COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE
+              COLD TRUTH CULTURE COLD TRUTH CULTURE
+            </div>
+          </div>
         </Col>
       </Row>
     </>

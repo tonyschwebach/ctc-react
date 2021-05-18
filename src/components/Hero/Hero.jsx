@@ -1,5 +1,4 @@
 import React from "react";
-import Ticker from "react-ticker";
 import { Button, Container, Row, Col } from "react-bootstrap";
 import "./Hero.css";
 import cat from "../../Assets/images/art/cat.png";
@@ -48,13 +47,12 @@ const Hero = () => {
       </Row>
       <Row>
         <Col id="hero-footer" className="align-left text-left">
-          <Ticker mode="chain" speed={7}>
-            {({ index }) => (
-              <>
-                <p className="ticker-text">COLD TRUTH CULTURE</p>
-              </>
-            )}
-          </Ticker>
+          <div className="marquee">
+            <div className="track">
+              &nbsp;COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE
+              COLD TRUTH CULTURE COLD TRUTH CULTURE
+            </div>
+          </div>
         </Col>
       </Row>
     </>
