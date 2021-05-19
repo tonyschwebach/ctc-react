@@ -1,0 +1,18 @@
+.green-block {
+  background-color: #66ff00;
+  height: 6rem;
+  width: 35vw;
+  min-width: 200px;
+  position: absolute;
+  top: 7rem;
+  left: -5rem;
+  display: block !important;
+  z-index: 0 !important;
+}
+
+.bg-ctc-black {
+  background-image: url("../../Assets/images/misc/black_ctc_bg.png");
+  background-size: cover;
+  color: white;
+
+}
