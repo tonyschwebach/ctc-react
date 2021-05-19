@@ -107,8 +107,6 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
-
-      {/* <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a> */}
     </footer>
   );
 };
