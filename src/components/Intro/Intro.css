@@ -101,6 +101,14 @@
   font-weight: 600;
   z-index: 99 !important;
 }
+.content-text a{
+ color: black;
+}
+
+.content-text a:hover{
+  color: black;
+  text-decoration: none;
+ }
 
 .green-button {
   background-color: #66ff00 !important;

@@ -29,7 +29,6 @@ const GetStarted = () => {
                         <Dropdown.Toggle variant="link" id="dropdown-basic">
                           <img src={ellipsis} alt="more" height="25px" />
                         </Dropdown.Toggle>
-
                         <Dropdown.Menu align="right">
                           <Dropdown.Item
                             href="https://honeyswap.org/setup-wallet.html"
@@ -182,7 +181,7 @@ const GetStarted = () => {
       </Row>
       <Row>
         <Col id="get-started-footer" className="align-middle mt-5">
-        <div className="marquee">
+          <div className="marquee">
             <div className="track">
               &nbsp;COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE
               COLD TRUTH CULTURE COLD TRUTH CULTURE
