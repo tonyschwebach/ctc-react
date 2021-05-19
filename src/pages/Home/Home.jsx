@@ -9,16 +9,13 @@ import Partnerships from "../../components/Partnerships/Partnerships";
 const Home = () => {
   return (
     <>
-    <Container fluid>
-
-      <Hero />
-      <Intro />
-      <Artists />
-      <GetStarted/>
-      <Partnerships />
-
-
-    </Container>
+      <Container fluid>
+        <Hero />
+        <Intro />
+        <Artists />
+        <GetStarted />
+        <Partnerships />
+      </Container>
     </>
   );
 };

@@ -5,12 +5,13 @@ import CTClogoText from "../../Assets/images/logos/CTC_logo_text.png";
 import telegram from "../../Assets/images/logos/telegram.png";
 import twitter from "../../Assets/images/logos/twitter.png";
 import discord from "../../Assets/images/logos/discord.png";
+import medium from "../../Assets/images/logos/medium.png";
 import "./Footer.css";
 
 const Footer = () => {
   return (
     <footer id="footer">
-      <Container fluid className="pt-5 pb-5">
+      <Container fluid className="pt-5 pb-5 mt-5">
         <Row>
           <Col xl={5}>
             <Row>
@@ -31,7 +32,13 @@ const Footer = () => {
                     <Link to="/about">About</Link>
                   </Col>
                   <Col xs={6}>
-                    <Link to="/cold">$COLD</Link>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://app.honeyswap.org/#/swap?inputCurrency=0eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee&outputCurrency=0xdbcade285846131a5e7384685eaddbdfd9625557"
+                    >
+                      $COLD
+                    </a>
                   </Col>
                   <Col xs={6}>
                     <Link to="/education">Education</Link>
@@ -46,7 +53,7 @@ const Footer = () => {
 
           <Col xl={7}>
             <Row>
-              <Col lg={8} className="text-left">
+              <Col lg={7} className="text-left">
                 <h5>We invite you</h5>
                 <p className="content-text">
                   Looking to learn more about Cold Truth Culture? No matter
@@ -55,14 +62,15 @@ const Footer = () => {
                   channels. We invite you to explore with us!
                 </p>
               </Col>
-              <Col lg={4} className="mb-4">
+              <Col lg={5} className="mb-4">
                 <a
-                  href="mailto:coldtruthcult@gmail.com"
+                  href="mailto:crosschainapplications@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="content-text"
+                  id="footer-email"
                 >
-                  <strong>coldtruthcult@gmail.com</strong>
+                  <strong>crosschainapplications@gmail.com</strong>
                 </a>
                 <Container className="d-flex justify-content-around mt-3">
                   <a
@@ -86,14 +94,19 @@ const Footer = () => {
                   >
                     <img src={discord} alt="discord" />
                   </a>
+                  <a
+                    href="https://medium.com/@ColdTruthCultureNFTs"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                   <img src={medium} alt="medium" />
+                  </a>
                 </Container>
               </Col>
             </Row>
           </Col>
         </Row>
       </Container>
-
-      {/* <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a> */}
     </footer>
   );
 };

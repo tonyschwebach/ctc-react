@@ -17,7 +17,7 @@ const Artists = () => {
           </p>
 
           <div id="carousel-outline"></div>
-          <Carousel className="mx-auto" interval={300000} transition={"false"}>
+          <Carousel className="mx-auto" interval={4000}  touch={true}>
             <Carousel.Item>
               <Container>
                 <Row className="artist">
