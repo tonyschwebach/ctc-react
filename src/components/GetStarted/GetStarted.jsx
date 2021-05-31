@@ -52,7 +52,7 @@ const GetStarted = () => {
                             Ramp
                           </Dropdown.Item>
                           <Dropdown.Item
-                            href="https://app.honeyswap.org/"
+                            href="https://app.honeyswap.org/#/swap?inputCurrency=0xdbcade285846131a5e7384685eaddbdfd9625557&outputCurrency=0xe91d153e0b41518a2ce8dd3d7944fa863463a97d"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -152,7 +152,7 @@ const GetStarted = () => {
                         </Dropdown.Toggle>
                         <Dropdown.Menu align="right">
                           <Dropdown.Item
-                            href="https://unicrypt.network/amm/honey/token/0xdbcadE285846131a5e7384685EADDBDFD9625557"
+                            href="https://app.unicrypt.network/amm/honey-v1/token/0xdbcadE285846131a5e7384685EADDBDFD9625557"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -161,7 +161,7 @@ const GetStarted = () => {
                         </Dropdown.Menu>
                       </Dropdown>
                       <a
-                        href="https://unicrypt.network/amm/honey/token/0xdbcadE285846131a5e7384685EADDBDFD9625557"
+                        href="https://app.unicrypt.network/amm/honey-v1/token/0xdbcadE285846131a5e7384685EADDBDFD9625557"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -184,6 +184,7 @@ const GetStarted = () => {
         <div className="marquee">
             <div className="track">
               &nbsp;COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE
+              COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE
               COLD TRUTH CULTURE COLD TRUTH CULTURE
             </div>
           </div>

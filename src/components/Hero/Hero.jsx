@@ -57,6 +57,7 @@ const Hero = () => {
           <div className="marquee">
             <div className="track">
               &nbsp;COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE
+              COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE
               COLD TRUTH CULTURE COLD TRUTH CULTURE
             </div>
           </div>
