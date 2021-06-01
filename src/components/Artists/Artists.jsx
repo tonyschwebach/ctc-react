@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Carousel, Container } from "react-bootstrap";
+import { Row, Col, Carousel, Container, Button } from "react-bootstrap";
 import "./Artists.css";
 import portals from "../../Assets/images/art/artist_portals.png";
 import sammyCold from "../../Assets/images/art/artist_sammy_cold.png";
@@ -17,7 +17,7 @@ const Artists = () => {
           </p>
 
           <div id="carousel-outline"></div>
-          <Carousel className="mx-auto" interval={4000}  touch={true}>
+          <Carousel className="mx-auto" interval={4000} touch={true}>
             <Carousel.Item>
               <Container>
                 <Row className="artist">
@@ -89,6 +89,24 @@ const Artists = () => {
               </Container>
             </Carousel.Item>
           </Carousel>
+          <div className="mt-5">
+            <Button
+              target="_blank"
+              rel="noreferrer"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdRAzibIq_W8K4i-Pbx4S-P8JgMFizfXcL8M8xP1VBaz0Nykg/viewform"
+              className="green-white-button mt-5"
+            >
+              Request Art
+            </Button>
+            <Button
+              target="_blank"
+              rel="noreferrer"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScK6PevtdYqEQj_MCdLhZHEHRQq1K1ESe8uy79DIcZGDTtSxw/viewform"
+              className="green-white-button ml-5 mt-5"
+            >
+              Submit Art
+            </Button>
+          </div>
         </Col>
       </Row>
     </>
