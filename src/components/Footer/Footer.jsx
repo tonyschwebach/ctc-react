@@ -46,6 +46,15 @@ const Footer = () => {
                   <Col xs={6}>
                     <Link to="/rewards">Rewards</Link>
                   </Col>
+                  <Col xs={6}>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://unifty.io/xdai/market.html?address=0xA0007F3b6B40f9B108b33AAEC3891BD41B906628"
+                    >
+                      Farms
+                    </a>
+                  </Col>
                 </Row>
               </Col>
             </Row>
