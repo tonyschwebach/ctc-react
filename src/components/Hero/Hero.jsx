@@ -19,10 +19,19 @@ const Hero = () => {
               </h2>
 
               <Button
-                href="https://medium.com/@ColdTruthCultureNFTs"
+                href="https://unifty.io/xdai/market.html?address=0xA0007F3b6B40f9B108b33AAEC3891BD41B906628"
                 target="_blank"
                 rel="noreferrer"
                 className="light-button mt-4"
+              >
+                Farms
+              </Button>
+
+              <Button
+                href="https://medium.com/@ColdTruthCultureNFTs"
+                target="_blank"
+                rel="noreferrer"
+                className="light-button mt-4 ml-5"
               >
                 Learn more
               </Button>

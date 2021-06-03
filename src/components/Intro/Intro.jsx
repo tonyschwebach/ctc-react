@@ -90,7 +90,7 @@ const Intro = () => {
                 <Button
                   target="_blank"
                   rel="noreferrer"
-                  href="https://hackmd.io/w1BXMNjJSFukrlq7F9t_-A?both"
+                  href="https://forum.1hive.org/t/announcing-cold-truth-culture-airdrop-cold/3857/11"
                   className="light-button ml-5 mt-4"
                 >
                   Learn More
