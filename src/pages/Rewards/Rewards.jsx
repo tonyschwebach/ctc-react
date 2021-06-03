@@ -51,7 +51,7 @@ const Rewards = () => {
                 <tr>
                   <td>
                     <a
-                      href="https://unifty.io/xdai/market.html?address=0xA0007F3b6B40f9B108b33AAEC3891BD41B906628"
+                      href="https://unifty.io/xdai/farm-view.html?address=0x4C0dB34dDfe13C86863c363b03d933f80599a3BD"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -99,7 +99,7 @@ const Rewards = () => {
                 <tr>
                   <td>
                     <a
-                      href="https://unifty.io/xdai/farm-view.html?address=0x5d004F2576465aEa90328bCcC219cC8b4873cC53"
+                      href="https://unifty.io/xdai/farm-view.html?address=0xb474F405F0DF84fbe57751Af0CB1AE534f5639b5"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -111,7 +111,7 @@ const Rewards = () => {
                 <tr>
                   <td>
                     <a
-                      href="https://unifty.io/xdai/farm-view.html?address=0x4C0dB34dDfe13C86863c363b03d933f80599a3BD"
+                      href="https://unifty.io/xdai/market.html?address=0xA0007F3b6B40f9B108b33AAEC3891BD41B906628"
                       target="_blank"
                       rel="noreferrer"
                     >
