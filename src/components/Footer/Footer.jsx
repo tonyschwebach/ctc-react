@@ -32,13 +32,14 @@ const Footer = () => {
                     <Link to="/about">About</Link>
                   </Col>
                   <Col xs={6}>
-                    <a
+                    {/* <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://app.honeyswap.org/#/swap?inputCurrency=0eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee&outputCurrency=0xdbcade285846131a5e7384685eaddbdfd9625557"
+                      href="https://app.honeyswap.org/#/swap?inputCurrency=0xEeeeeEEeeEEEEeeEEEEEeeeeeEEe&outputCurrency=0xdbcade285846131a5e7384685eaddbdfd9625557"
                     >
                       $COLD
-                    </a>
+                    </a> */}
+                    <Link to="/cold">$Cold</Link>
                   </Col>
                   <Col xs={6}>
                     <Link to="/education">Education</Link>
@@ -50,9 +51,9 @@ const Footer = () => {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://unifty.io/xdai/market.html?address=0xA0007F3b6B40f9B108b33AAEC3891BD41B906628"
+                      href="https://unifty.io/xdai/market-view.html?location=0x3DC29eafeE1e21A122ad17173F927980D1863529"
                     >
-                      Farms
+                      Marketplace
                     </a>
                   </Col>
                 </Row>
@@ -108,7 +109,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                   <img src={medium} alt="medium" />
+                    <img src={medium} alt="medium" />
                   </a>
                 </Container>
               </Col>

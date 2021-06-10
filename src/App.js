@@ -5,6 +5,7 @@ import About from "./pages/About/About";
 import Rewards from "./pages/Rewards/Rewards";
 import Footer from "./components/Footer/Footer";
 import Education from "./pages/Education/Education";
+import Cold from "./pages/Cold/Cold";
 import Join from "./pages/Join/Join";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -20,6 +21,7 @@ function App() {
             <Route path="/about" component={About} />
             <Route path="/rewards" component={Rewards} />
             <Route path="/education" component={Education} />
+            <Route path="/cold" component={Cold} />
             <Route path="/join" component={Join} />
             <Route path="*" component={Home} />
           </Switch>
