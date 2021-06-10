@@ -56,7 +56,7 @@ const Header = (props) => {
               Request Art
             </NavDropdown.Item>
             <NavDropdown.Item
-              href="https://discord.gg/GSmaQYuwcZ"
+              href="https://discord.gg/6sdT77HP9u"
               target="_blank"
             >
               Discord
