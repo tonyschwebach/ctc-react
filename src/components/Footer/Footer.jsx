@@ -98,7 +98,7 @@ const Footer = () => {
                     <img src={twitter} alt="twitter" />
                   </a>
                   <a
-                    href="https://discord.com/invite/GSmaQYuwcZ"
+                    href="https://discord.gg/6sdT77HP9u"
                     target="_blank"
                     rel="noreferrer"
                   >
