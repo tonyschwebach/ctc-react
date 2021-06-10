@@ -52,7 +52,7 @@ const GetStarted = () => {
                             Ramp
                           </Dropdown.Item>
                           <Dropdown.Item
-                            href="https://app.honeyswap.org/#/swap?inputCurrency=0xdbcade285846131a5e7384685eaddbdfd9625557&outputCurrency=0xe91d153e0b41518a2ce8dd3d7944fa863463a97d"
+                            href="https://app.honeyswap.org/#/swap?inputCurrency=0xEeeeeEEeeEEEEeeEEEEEeeeeeEEe&outputCurrency=0xdbcade285846131a5e7384685eaddbdfd9625557"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -124,6 +124,13 @@ const GetStarted = () => {
                           >
                             Ice Cold NFT Farm COLD STAKE
                           </Dropdown.Item>
+                          <Dropdown.Item
+                            href="https://unifty.io/xdai/farm-view.html?address=0x4C0dB34dDfe13C86863c363b03d933f80599a3BD"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Ice Cold Rare LP Farm COLD STAKE
+                          </Dropdown.Item>
                         </Dropdown.Menu>
                       </Dropdown>
 
@@ -184,8 +191,9 @@ const GetStarted = () => {
           <div className="marquee">
             <div className="track">
               &nbsp;COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE
-              COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE
-              COLD TRUTH CULTURE COLD TRUTH CULTURE
+              COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE COLD
+              TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH
+              CULTURE
             </div>
           </div>
         </Col>

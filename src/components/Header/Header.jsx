@@ -42,6 +42,18 @@ const Header = (props) => {
             variant="light"
             className="my-auto mx-auto pl-1 pr-2"
           >
+                        <NavDropdown.Item
+              href="https://docs.google.com/forms/d/e/1FAIpQLScK6PevtdYqEQj_MCdLhZHEHRQq1K1ESe8uy79DIcZGDTtSxw/viewform"
+              target="_blank"
+            >
+              Submit Art
+            </NavDropdown.Item>
+            <NavDropdown.Item
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdRAzibIq_W8K4i-Pbx4S-P8JgMFizfXcL8M8xP1VBaz0Nykg/viewform"
+              target="_blank"
+            >
+              Request Art
+            </NavDropdown.Item>
             <NavDropdown.Item
               href="https://discord.gg/GSmaQYuwcZ"
               target="_blank"
@@ -120,6 +132,14 @@ const Header = (props) => {
               rel="noreferrer"
             >
               Ice Cold NFT Farm COLD STAKE
+            </NavDropdown.Item>
+
+            <NavDropdown.Item
+              href="https://unifty.io/xdai/farm-view.html?address=0x4C0dB34dDfe13C86863c363b03d933f80599a3BD"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ice Cold Rare LP Farm COLD STAKE
             </NavDropdown.Item>
           </DropdownButton>
         </Nav>

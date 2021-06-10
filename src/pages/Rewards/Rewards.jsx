@@ -33,7 +33,7 @@ const Rewards = () => {
             chain. We will also airdrop our current early supporters of Cold
             Truth Culture NFTs based on how many NFTs they redeemed! This will
             all take place 5-10 days before the launch of the Agave NFT
-            promotion involving the COLD/AGVE LP token.
+            promotion involving the COLD/HNY LP token.
           </p>
         </div>
 

@@ -21,7 +21,7 @@ const Intro = () => {
                       build something truly special. It’s a safe place in crypto
                       space for people to hang out, talk and learn about digital
                       assets, NFTs, share ideas, share artwork and reward people
-                      that do the right thing!
+                      that contribute to our ecosystem.
                     </p>
                   </Col>
                 </Row>
