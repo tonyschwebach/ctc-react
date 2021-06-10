@@ -18,13 +18,11 @@ const Header = (props) => {
           <Nav.Link href="/" className="mx-1">
             Home
           </Nav.Link>
-          <Nav.Link href="/about" className="mx-1">
-            About
-          </Nav.Link>
           <Nav.Link
-            target="_blank"
-            rel="noreferrer"
-            href="https://app.honeyswap.org/#/swap?inputCurrency=0eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee&outputCurrency=0xdbcade285846131a5e7384685eaddbdfd9625557"
+            // target="_blank"
+            // rel="noreferrer"
+            // href="https://app.honeyswap.org/#/swap?inputCurrency=0xEeeeeEEeeEEEEeeEEEEEeeeeeEEe&outputCurrency=0xdbcade285846131a5e7384685eaddbdfd9625557"
+            href="/cold"
             className="mx-1"
           >
             $COLD
@@ -36,6 +34,9 @@ const Header = (props) => {
             Rewards
           </Nav.Link>
 
+          <Nav.Link href="/about" className="mx-1">
+            About
+          </Nav.Link>
           <NavDropdown
             title="Join Us"
             menuAlign="right"

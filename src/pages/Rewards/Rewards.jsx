@@ -54,6 +54,7 @@ const Rewards = () => {
                       href="https://unifty.io/xdai/farm-view.html?address=0x4C0dB34dDfe13C86863c363b03d933f80599a3BD"
                       target="_blank"
                       rel="noreferrer"
+                      style={{textDecoration:'underline'}}
                     >
                       Ice Cold OGs
                     </a>
@@ -66,6 +67,7 @@ const Rewards = () => {
                       href="https://unifty.io/xdai/farm-view.html?address=0x305dc5048d9680d8b93a60Fd9f0054Bb0F6C5B19"
                       target="_blank"
                       rel="noreferrer"
+                      style={{textDecoration:'underline'}}
                     >
                       Music
                     </a>
@@ -78,6 +80,7 @@ const Rewards = () => {
                       href="https://unifty.io/xdai/farm-view.html?address=0x18D57C5Dfe2e5839AC81630bE7dF359F2d4AE0A6"
                       target="_blank"
                       rel="noreferrer"
+                      style={{textDecoration:'underline'}}
                     >
                       Music LP
                     </a>
@@ -90,6 +93,7 @@ const Rewards = () => {
                       href="https://unifty.io/xdai/farm-view.html?address=0xFcf213136b9D48d210AA79B7F372e6e63BDF2737"
                       target="_blank"
                       rel="noreferrer"
+                      style={{textDecoration:'underline'}}
                     >
                       Collective LP
                     </a>
@@ -102,6 +106,7 @@ const Rewards = () => {
                       href="https://unifty.io/xdai/farm-view.html?address=0xb474F405F0DF84fbe57751Af0CB1AE534f5639b5"
                       target="_blank"
                       rel="noreferrer"
+                      style={{textDecoration:'underline'}}
                     >
                       HNY Rare LP
                     </a>
@@ -114,6 +119,7 @@ const Rewards = () => {
                       href="https://unifty.io/xdai/market.html?address=0xA0007F3b6B40f9B108b33AAEC3891BD41B906628"
                       target="_blank"
                       rel="noreferrer"
+                      style={{textDecoration:'underline'}}
                     >
                       Ice Cold Rare LP
                     </a>
