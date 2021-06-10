@@ -63,7 +63,7 @@ const Artists = () => {
                   </Col>
                   <Col xs={8} className="my-auto">
                     <h5>Chomsky</h5>
-                    <p className="content-text ">unknown</p>
+                    <p className="content-text ">NFT artist, illustrator and sticker pack creator</p>
                   </Col>
                 </Row>
               </Container>
