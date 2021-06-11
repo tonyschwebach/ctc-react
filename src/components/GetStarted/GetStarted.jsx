@@ -188,7 +188,7 @@ const GetStarted = () => {
       </Row>
       <Row>
         <Col id="get-started-footer" className="align-middle mt-5">
-          <div className="marquee">
+        <div className="marquee">
             <div className="track">
               &nbsp;COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE
               COLD TRUTH CULTURE COLD TRUTH CULTURE COLD TRUTH CULTURE COLD
