@@ -125,7 +125,7 @@ const GetStarted = () => {
                             Ice Cold NFT Farm COLD STAKE
                           </Dropdown.Item>
                           <Dropdown.Item
-                            href="https://unifty.io/xdai/farm-view.html?address=0x4C0dB34dDfe13C86863c363b03d933f80599a3BD"
+                            href="https://unifty.io/xdai/farm-view.html?address=0x6Db5CfE5c9107C348cB863B64f8A2066CCC68982"
                             target="_blank"
                             rel="noreferrer"
                           >
