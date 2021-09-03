@@ -31,7 +31,7 @@ const Rewards = () => {
             the farms listed below and use the points that you accumulate to 
             redeem NFTs. CTC will airdrop COLD to your wallet address at the 
             percentage rates listed below relative to the artist fee paid per 
-            farm and the price of COLD for that period.
+            farm and the price of COLD.
             
           </p>
         </div>
@@ -76,6 +76,19 @@ const Rewards = () => {
                 <tr>
                   <td>
                     <a
+                      href="https://unifty.io/xdai/farm-view.html?address=0x305dc5048d9680d8b93a60Fd9f0054Bb0F6C5B19"
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{textDecoration:'underline'}}
+                    >
+                      NSFW
+                    </a>
+                  </td>
+                  <td>60% Cold Truth Cashback</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
                       href="https://unifty.io/xdai/farm-view.html?address=0x18D57C5Dfe2e5839AC81630bE7dF359F2d4AE0A6"
                       target="_blank"
                       rel="noreferrer"
@@ -97,7 +110,7 @@ const Rewards = () => {
                       Collective LP
                     </a>
                   </td>
-                  <td>80% Cold Truth Cashback</td>
+                  <td>75% Cold Truth Cashback</td>
                 </tr>
                 <tr>
                   <td>
@@ -110,7 +123,7 @@ const Rewards = () => {
                       HNY Rare LP
                     </a>
                   </td>
-                  <td>85% Cold Truth Cashback</td>
+                  <td>75% Cold Truth Cashback</td>
                 </tr>
                 <tr>
                   <td>
@@ -123,7 +136,7 @@ const Rewards = () => {
                       Ice Cold Rare LP
                     </a>
                   </td>
-                  <td>90% Cold Truth Cashback</td>
+                  <td>75% Cold Truth Cashback</td>
                 </tr>
               </tbody>
             </Table>
@@ -131,11 +144,9 @@ const Rewards = () => {
           </Col>
 
           <Col md={4}>
-            <h5 className="mt-4">Bonding Curve</h5>
+            <h5 className="mt-4">Bonus Events</h5>
             <ul className="list-unstyled content-text">
-              <li>Week 1-4 2x rewards</li>
-              <li>Week 4-8 1.5x rewards</li>
-              <li>Week 8-12 1x rewards</li>
+              <li>Coming Soon</li>
             </ul>
           </Col>
         </Row>
@@ -147,21 +158,20 @@ const Rewards = () => {
                 Example:
                 <span className="content-text">
                   {" "}
-                  At the end of the month the user has farmed the
+                  At the end of the month the collector has farmed the
                   following:
                 </span>
               </p>
               <ul className="list-unstyled content-text">
-                <li>Music - 2 x 4.95 = 9.90 xDAI x 0.75 (75%) = 7.425 xDAI</li>
-                <li>Collective LP - 1 x 3.50 xDAI x 0.80 (80%) = 2.80 xDAI</li>
+                <li>Ice Cold OGs - 1x NFT for 1.50 xDAI each (50%)</li>
+                <li>The Collective LP - 4x NFT for 3.50 xDAI each (75%)</li>
                 <li>
-                  Bonding Curve Bonus for week 1: 7.425 + 2.80 = 10.255 xDAI (
-                  x2) = 20.510 xDAI
+                  Average price of COLD for the month $0.08
                 </li>
               </ul>
               <p className="content-text">
-                Avg cold price: 14.2c so the NFT farmer would get 20.510 xDAI
-                worth of cold tokens @ 14.2c each = 144.43 cold tokens
+                Ice Cold OGs = 9.375 COLD + The Colective LP = 131.25 COLD
+
               </p>
             </div>
           </Col>
