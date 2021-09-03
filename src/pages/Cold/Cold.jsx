@@ -58,11 +58,11 @@ const Cold = () => {
                     or LP tokens. You will accumulate points that can be used to
                     redeem NFTs at a discount to the market price as well as
                     earn COLD rewards for each redemption to be distributed
-                    weekly in our{" "}
+                    monthly in our{" "}
                     <strong>
-                      <a href="/cold" style={{textDecoration:'underline'}}>CTC Rewards Program</a>
+                      <a href="/rewards" style={{textDecoration:'underline'}}>CTC Rewards Program</a>
                     </strong>{" "}
-                    for NFT collectors
+                    for NFT farmers
                   </p>
                 </Col>
               </Row>
@@ -77,7 +77,7 @@ const Cold = () => {
               <Button
                 target="_blank"
                 rel="noreferrer"
-                href="https://forum.1hive.org/t/announcing-cold-truth-culture-airdrop-cold/3857/11"
+                href="https://forum.1hive.org/t/announcing-cold-truth-culture-airdrop-cold/3857"
                 className="light-button ml-5 mt-4"
               >
                 Learn More
