@@ -76,7 +76,7 @@ const Rewards = () => {
                 <tr>
                   <td>
                     <a
-                      href="https://unifty.io/xdai/farm-view.html?address=0x305dc5048d9680d8b93a60Fd9f0054Bb0F6C5B19"
+                      href="https://unifty.io/xdai/farm-view.html?address=0x5d004F2576465aEa90328bCcC219cC8b4873cC53"
                       target="_blank"
                       rel="noreferrer"
                       style={{textDecoration:'underline'}}
@@ -128,7 +128,7 @@ const Rewards = () => {
                 <tr>
                   <td>
                     <a
-                      href="https://unifty.io/xdai/market.html?address=0xA0007F3b6B40f9B108b33AAEC3891BD41B906628"
+                      href="https://unifty.io/xdai/farm-view.html?address=0x6Db5CfE5c9107C348cB863B64f8A2066CCC68982"
                       target="_blank"
                       rel="noreferrer"
                       style={{textDecoration:'underline'}}
@@ -163,14 +163,14 @@ const Rewards = () => {
                 </span>
               </p>
               <ul className="list-unstyled content-text">
-                <li>Ice Cold OGs - 1x NFT for 1.50 xDAI each (50%)</li>
-                <li>The Collective LP - 4x NFT for 3.50 xDAI each (75%)</li>
+                <li>Ice Cold OGs - 1x NFT for 1.50 xDAI each (50%) = 9.375 COLD</li>
+                <li>The Collective LP - 4x NFT for 3.50 xDAI each (75%) = 131.25 COLD</li>
                 <li>
-                  Average price of COLD for the month $0.08
+                  The average price of COLD for that month was $0.08
                 </li>
               </ul>
               <p className="content-text">
-                Ice Cold OGs = 9.375 COLD + The Colective LP = 131.25 COLD
+                Total Cold Truth Cashback = 140.625 COLD
 
               </p>
             </div>
