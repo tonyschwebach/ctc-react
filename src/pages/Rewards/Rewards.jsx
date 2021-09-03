@@ -19,21 +19,20 @@ const Rewards = () => {
             <p className="content-text">
               {/* <strong> */}
               The Cold Truth Culture Rewards Program will be revised by our
-              governance council after 12 weeks and adjusted for best results
-              and sustainability.
+              governance council every 12 weeks and adjusted for best results
+              and ongoing sustainability.
               {/* </strong> */}
             </p>
           </Col>
         </Row>
         <div className="bg-green">
           <p>
-            To celebrate launching our latest rewards program we will be
-            airdropping cold tokens to 1Hive’s most active wallets with amounts
-            based on how well they have held their previous airdrops on the xDAI
-            chain. We will also airdrop our current early supporters of Cold
-            Truth Culture NFTs based on how many NFTs they redeemed! This will
-            all take place 5-10 days before the launch of the Agave NFT
-            promotion involving the COLD/HNY LP token.
+            To earn Cold Truth Cashback deposit COLD or LP tokens into any of 
+            the farms listed below and use the points that you accumulate to 
+            redeem NFTs. CTC will airdrop COLD to your wallet address at the 
+            percentage rates listed below relative to the artist fee paid per 
+            farm and the price of COLD for that period.
+            
           </p>
         </div>
 
@@ -128,7 +127,7 @@ const Rewards = () => {
                 </tr>
               </tbody>
             </Table>
-            <p>Payments to be made weekly</p>
+            <p>Payments to be distributed monthly using Colony</p>
           </Col>
 
           <Col md={4}>
@@ -148,7 +147,7 @@ const Rewards = () => {
                 Example:
                 <span className="content-text">
                   {" "}
-                  Week 1 at the end of the week the user has farmed the
+                  At the end of the month the user has farmed the
                   following:
                 </span>
               </p>
