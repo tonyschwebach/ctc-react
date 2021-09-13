@@ -32,19 +32,30 @@ const Footer = () => {
                     <Link to="/about">About</Link>
                   </Col>
                   <Col xs={6}>
-                    <a
+                    {/* <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://app.honeyswap.org/#/swap?inputCurrency=0eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee&outputCurrency=0xdbcade285846131a5e7384685eaddbdfd9625557"
+                      href="https://app.honeyswap.org/#/swap?inputCurrency=0xEeeeeEEeeEEEEeeEEEEEeeeeeEEe&outputCurrency=0xdbcade285846131a5e7384685eaddbdfd9625557"
                     >
                       $COLD
-                    </a>
+                    </a> */}
+                    <Link to="/cold">$Cold</Link>
                   </Col>
                   <Col xs={6}>
                     <Link to="/education">Education</Link>
                   </Col>
                   <Col xs={6}>
                     <Link to="/rewards">Rewards</Link>
+                  </Col>
+                  <Col xs={6}>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      // href="https://unifty.io/xdai/market-view.html?location=0x3DC29eafeE1e21A122ad17173F927980D1863529"
+                    href="https://app.coldtruthculture.io/"
+                    >
+                      Marketplace
+                    </a>
                   </Col>
                 </Row>
               </Col>
@@ -88,7 +99,7 @@ const Footer = () => {
                     <img src={twitter} alt="twitter" />
                   </a>
                   <a
-                    href="https://discord.com/invite/GSmaQYuwcZ"
+                    href="https://discord.gg/6sdT77HP9u"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -99,7 +110,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                   <img src={medium} alt="medium" />
+                    <img src={medium} alt="medium" />
                   </a>
                 </Container>
               </Col>
